@@ -1,0 +1,192 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "JP",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "jp_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_JP_5hp.png"
+    },
+    {
+      "id": "jp_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_JP_2hk.png"
+    },
+    {
+      "id": "jp_amnesia_h",
+      "moveName": "Amnesia (H)",
+      "category": "special",
+      "onBlock": -14,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Only H version is notably negative. L/M versions are safer.",
+      "imageURL": "SF6_JP_236p.png"
+    },
+    {
+      "id": "jp_amnesia_od",
+      "moveName": "Amnesia (OD)",
+      "category": "special",
+      "onBlock": -18,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_JP_236pp.png"
+    },
+    {
+      "id": "jp_departure_od",
+      "moveName": "Departure (OD)",
+      "category": "special",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_JP_623pp.png"
+    },
+    {
+      "id": "jp_sa3",
+      "moveName": "Survive (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_JP_214214p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Survive",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "JP has limited reversal options. SA3 is his main threat."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Survive (fully invincible)"
+      ],
+      "trades": [],
+      "notes": "JP has no DP. Meaty pressure is very strong here."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Survive"
+      ],
+      "trades": [],
+      "notes": "JP lacks a true meterless reversal. Pressure is strong without his SA3."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Survive"
+      ],
+      "trades": [],
+      "notes": "Minimal oki but effective — JP cannot reversal without meter."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (SA3 Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Survive",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "JP has no DP. SA3 is his only true reversal — safe jump handles it cleanly."
+    },
+    {
+      "id": "meaty_mk_dominant",
+      "title": "Meaty cr.MK (Dominant Without SA3)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "SA1",
+        "SA2",
+        "wake jab",
+        "wake throw"
+      ],
+      "loses": [
+        "SA3 Survive"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "Without SA3, JP cannot cleanly escape Deejay’s oki. Meaty cr.MK is very effective."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Departure Super",
+      "invincibility": "No true invincibility",
+      "onBlock": -20,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA2 — Interdependence",
+      "invincibility": "No true invincibility",
+      "onBlock": -25,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA3 — Survive",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "His only true reversal — safe jump required"
+    }
+  ]
+}

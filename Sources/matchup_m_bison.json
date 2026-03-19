@@ -1,0 +1,207 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "M. Bison",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "mbison_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Mbison_5hp.png"
+    },
+    {
+      "id": "mbison_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Mbison_2hk.png"
+    },
+    {
+      "id": "mbison_psycho_crusher_h",
+      "moveName": "Psycho Crusher (H)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Mbison_236lk.png"
+    },
+    {
+      "id": "mbison_devil_reverse_l",
+      "moveName": "Devil Reverse (L)",
+      "category": "special",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "DP-style overhead. Extend w/ OD/super.",
+      "imageURL": "SF6_Mbison_214lp.png"
+    },
+    {
+      "id": "mbison_devil_reverse_m",
+      "moveName": "Devil Reverse (M)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Mbison_214lp.png"
+    },
+    {
+      "id": "mbison_devil_reverse_od",
+      "moveName": "Devil Reverse (OD)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — his primary reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Mbison_214pp.png"
+    },
+    {
+      "id": "mbison_sa3",
+      "moveName": "Tyrant Pressure (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Mbison_236236k.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Tyrant Pressure",
+        "OD Devil Reverse",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Bison has a DP. Safe jump is essential."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Psycho Blast",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Tyrant Pressure",
+        "OD Devil Reverse"
+      ],
+      "trades": [],
+      "notes": "Risky vs his meter. Use safe jump if he has Drive gauge."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Tyrant Pressure",
+        "OD Devil Reverse"
+      ],
+      "trades": [],
+      "notes": "Standard pressure."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1"
+      ],
+      "loses": [
+        "SA3 Tyrant Pressure",
+        "OD Devil Reverse"
+      ],
+      "trades": [],
+      "notes": "Minimal oki."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Tyrant Pressure",
+        "OD Devil Reverse",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Bison’s reversal tools are Devil Reverse and SA3. Safe jump handles both."
+    },
+    {
+      "id": "meaty_jab_sa1_killer",
+      "title": "Meaty 5LP (SA1/SA2 Killer)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA1 Psycho Blast",
+        "SA2",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA3 Tyrant Pressure",
+        "OD Devil Reverse"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "SA1/SA2 lack invincibility. Meaty wins without his key meter."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Psycho Blast",
+      "invincibility": "No true invincibility",
+      "onBlock": -15,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA3 — Tyrant Pressure",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Fully invincible — safe jump required"
+    },
+    {
+      "name": "OD Devil Reverse",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -25,
+      "warning": "His DP reversal — strike invincible"
+    }
+  ]
+}

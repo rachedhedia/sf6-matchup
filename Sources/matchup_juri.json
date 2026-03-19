@@ -1,0 +1,223 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Juri",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "juri_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Juri_5hp.png"
+    },
+    {
+      "id": "juri_5hk",
+      "moveName": "Standing HK",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Juri_5hk.png"
+    },
+    {
+      "id": "juri_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Juri_2hk.png"
+    },
+    {
+      "id": "juri_tensenrin_l",
+      "moveName": "Tensenrin (L)",
+      "category": "special",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Juri_623LP.png"
+    },
+    {
+      "id": "juri_tensenrin_m",
+      "moveName": "Tensenrin (M)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Juri_623LP.png"
+    },
+    {
+      "id": "juri_tensenrin_h",
+      "moveName": "Tensenrin (H)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Juri_623LP.png"
+    },
+    {
+      "id": "juri_tensenrin_od",
+      "moveName": "Tensenrin (OD)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — her primary reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Juri_623PP.png"
+    },
+    {
+      "id": "juri_saihasho_h",
+      "moveName": "Saihasho (H)",
+      "category": "special",
+      "onBlock": -10,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Uncharged version. Charged versions have different frame data.",
+      "imageURL": "SF6_Juri_236hk.png"
+    },
+    {
+      "id": "juri_sa3",
+      "moveName": "Kaisen Dankai Raku (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Juri_236236k.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Kaisen Dankai Raku",
+        "OD Tensenrin",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Juri is a DP character. Safe jump off Jackknife HK is the right answer."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Feng Shui Engine (power-up, not invincible)"
+      ],
+      "loses": [
+        "SA3 Kaisen Dankai Raku",
+        "OD Tensenrin"
+      ],
+      "trades": [],
+      "notes": "SA1 is a power-up super — no invincibility. Risky vs SA3 meter."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "shimmy bait"
+      ],
+      "loses": [
+        "SA3 Kaisen Dankai Raku",
+        "OD Tensenrin"
+      ],
+      "trades": [],
+      "notes": "Consistent pressure if she lacks meter."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw"
+      ],
+      "loses": [
+        "SA3 Kaisen Dankai Raku",
+        "OD Tensenrin"
+      ],
+      "trades": [],
+      "notes": "Minimal oki."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Kaisen Dankai Raku",
+        "OD Tensenrin",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Juri’s main reversal threat is OD Tensenrin and SA3. Safe jump handles both."
+    },
+    {
+      "id": "meaty_jab_sa1_killer",
+      "title": "Meaty 5LP (SA1 Ignore)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA1 Feng Shui Engine",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA3 Kaisen Dankai Raku",
+        "OD Tensenrin"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "SA1 activates a power-up mode, not a reversal — you can meaty freely. Respect SA3/OD Tensenrin."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Feng Shui Engine",
+      "invincibility": "No invincibility (power-up super)",
+      "onBlock": -5,
+      "warning": "This activates charge mode — not a true reversal, but be careful of follow-ups"
+    },
+    {
+      "name": "SA3 — Kaisen Dankai Raku",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Her main punish reversal — safe jump required"
+    },
+    {
+      "name": "OD Tensenrin",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -25,
+      "warning": "Meterless reversal option — strike invincible only"
+    }
+  ]
+}

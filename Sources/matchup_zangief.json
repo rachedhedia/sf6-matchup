@@ -1,0 +1,192 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Zangief",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "zangief_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Zangief_5hp.png"
+    },
+    {
+      "id": "zangief_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Zangief_2hk.png"
+    },
+    {
+      "id": "zangief_6hp",
+      "moveName": "Double Lariat (6HP)",
+      "category": "uniqueAttack",
+      "onBlock": -8,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Zangief_6hp.png"
+    },
+    {
+      "id": "zangief_borscht_dynamite",
+      "moveName": "Borscht Dynamite (OD)",
+      "category": "special",
+      "onBlock": -10,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Zangief_22hk.png"
+    },
+    {
+      "id": "zangief_sa1",
+      "moveName": "Cyclone Lariat (SA1)",
+      "category": "super",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — his main anti-air/reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Zangief_236236p.png"
+    },
+    {
+      "id": "zangief_sa2",
+      "moveName": "Bolshoi Ruskie Storm (SA2)",
+      "category": "super",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Zangief_236236p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA1 Cyclone Lariat",
+        "SA2 Bolshoi Ruskie Storm",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Zangief has no traditional DP. Safe jump is strong vs his supers."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "back rise attempt"
+      ],
+      "loses": [
+        "SA1 Cyclone Lariat (strike inv)",
+        "SA2 Bolshoi Ruskie Storm"
+      ],
+      "trades": [],
+      "notes": "IMPORTANT: Do NOT attempt throw setups vs Zangief. SA3 Final Atomic Buster is a command grab super and will beat throw attempts."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Meaty Normal (NOT throw)",
+      "beats": [
+        "wake jab",
+        "back rise"
+      ],
+      "loses": [
+        "SA3 Final Atomic Buster (command grab super)",
+        "SA1 Cyclone Lariat"
+      ],
+      "trades": [],
+      "notes": "CRITICAL: Avoid delayed throw setups vs Zangief. SA3 is a command grab super that beats throws on wakeup."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake jab"
+      ],
+      "loses": [
+        "SA1 Cyclone Lariat",
+        "SA3 Final Atomic Buster"
+      ],
+      "trades": [],
+      "notes": "Keep distance after back throw. Zangief is scary up close on wakeup."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal — Avoids Command Grab)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA1 Cyclone Lariat",
+        "SA2 Bolshoi Ruskie Storm",
+        "SA3 Final Atomic Buster (whiffs — aerial)",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": "cr.MP > DR cr.MP xx Jackknife HK",
+      "punishAfterBlockedSA3": null,
+      "notes": "Against Zangief, jumping also avoids SA3 Final Atomic Buster command grab. Landing j.X hits him out of it. Key matchup knowledge."
+    },
+    {
+      "id": "meaty_normal_only",
+      "title": "Meaty Normal (Never Throw)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "SA2 Bolshoi Ruskie Storm"
+      ],
+      "loses": [
+        "SA1 Cyclone Lariat",
+        "SA3 Final Atomic Buster (if grounded)"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "NEVER use a delayed throw setup vs Zangief. SA3 is a Level 3 command grab that beats throw on wakeup."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Cyclone Lariat",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -20,
+      "warning": "Strike invincible anti-air super — safe jump beats it"
+    },
+    {
+      "name": "SA2 — Bolshoi Ruskie Storm",
+      "invincibility": "No true invincibility",
+      "onBlock": -30,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA3 — Final Atomic Buster",
+      "invincibility": "Grab invincible f1+",
+      "onBlock": null,
+      "warning": "COMMAND GRAB SUPER — beats delayed throws on wakeup. Jump to avoid it."
+    }
+  ]
+}

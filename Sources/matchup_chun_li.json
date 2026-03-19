@@ -1,0 +1,234 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Chun-Li",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "chunli_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Chun-Li_5hp.png"
+    },
+    {
+      "id": "chunli_2mk",
+      "moveName": "Crouching MK",
+      "category": "normal",
+      "onBlock": -6,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Chun-Li_2mk.png"
+    },
+    {
+      "id": "chunli_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -7,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Chun-Li_2hk.png"
+    },
+    {
+      "id": "chunli_tensho_kakyo_l",
+      "moveName": "Tensho Kakyo (L)",
+      "category": "special",
+      "onBlock": -23,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Chun-Li_214p.png"
+    },
+    {
+      "id": "chunli_tensho_kakyo_m",
+      "moveName": "Tensho Kakyo (M)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Chun-Li_214p.png"
+    },
+    {
+      "id": "chunli_tensho_kakyo_h",
+      "moveName": "Tensho Kakyo (H)",
+      "category": "special",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Chun-Li_214p.png"
+    },
+    {
+      "id": "chunli_tensho_kakyo_od",
+      "moveName": "Tensho Kakyo (OD)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — her primary reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Chun-Li_214kk.png"
+    },
+    {
+      "id": "chunli_sbk_l",
+      "moveName": "Spinning Bird Kick (L)",
+      "category": "special",
+      "onBlock": -10,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Chun-Li_214lk.png"
+    },
+    {
+      "id": "chunli_sa1",
+      "moveName": "Kikosho (SA1)",
+      "category": "super",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Projectile invincible only — meaty normals beat it.",
+      "imageURL": "SF6_Chun-Li_236236p.png"
+    },
+    {
+      "id": "chunli_sa3",
+      "moveName": "Shichisei Senkukyaku (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Chun-Li_214214k.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Shichisei Senkukyaku",
+        "OD Tensho Kakyo",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Chun-Li is a DP character. Safe jump is reliable."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Kikosho"
+      ],
+      "loses": [
+        "SA3 Shichisei Senkukyaku",
+        "OD Tensho Kakyo"
+      ],
+      "trades": [],
+      "notes": "SA1 has no full strike invincibility. Risky vs SA3/OD DP."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA1"
+      ],
+      "loses": [
+        "SA3 Shichisei Senkukyaku",
+        "OD Tensho Kakyo"
+      ],
+      "trades": [],
+      "notes": "Standard pressure."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1"
+      ],
+      "loses": [
+        "SA3 Shichisei Senkukyaku",
+        "OD Tensho Kakyo"
+      ],
+      "trades": [],
+      "notes": "Minimal oki."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Shichisei Senkukyaku",
+        "OD Tensho Kakyo",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Chun-Li’s DP and SA3 are her reversal tools. Safe jump handles both."
+    },
+    {
+      "id": "meaty_jab_sa1_killer",
+      "title": "Meaty 5LP (SA1 Killer)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA1 Kikosho",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA3 Shichisei Senkukyaku",
+        "OD Tensho Kakyo"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": "cr.MP > DR cr.MP xx Jackknife HK",
+      "punishAfterBlockedSA3": null,
+      "notes": "SA1 has no full invincibility — meaty beats it cleanly."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Kikosho",
+      "invincibility": "Projectile invincible only",
+      "onBlock": -12,
+      "warning": "No full strike invincibility — meaty normals beat it"
+    },
+    {
+      "name": "SA3 — Shichisei Senkukyaku",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Fully invincible — safe jump required"
+    },
+    {
+      "name": "OD Tensho Kakyo",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -25,
+      "warning": "Her DP reversal — strike invincible"
+    }
+  ]
+}

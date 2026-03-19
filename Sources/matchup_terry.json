@@ -1,0 +1,225 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Terry",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "terry_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Terry_5hp.png"
+    },
+    {
+      "id": "terry_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Terry_2hk.png"
+    },
+    {
+      "id": "terry_rising_tackle_l",
+      "moveName": "Rising Tackle (L)",
+      "category": "special",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Terry_214lp.png"
+    },
+    {
+      "id": "terry_rising_tackle_m",
+      "moveName": "Rising Tackle (M)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Terry_214lp.png"
+    },
+    {
+      "id": "terry_rising_tackle_h",
+      "moveName": "Rising Tackle (H)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Terry_214lp.png"
+    },
+    {
+      "id": "terry_rising_tackle_od",
+      "moveName": "Rising Tackle (OD)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — his primary reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Terry_214pp.png"
+    },
+    {
+      "id": "terry_power_charge_h",
+      "moveName": "Power Charge (H)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Terry_236hp.png"
+    },
+    {
+      "id": "terry_sa1",
+      "moveName": "Power Geyser (SA1)",
+      "category": "super",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Has some invincibility — use safe jump if unsure.",
+      "imageURL": "SF6_Terry_236236p.png"
+    },
+    {
+      "id": "terry_sa3",
+      "moveName": "Buster Wolf (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Terry_214214p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Buster Wolf",
+        "OD Rising Tackle",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Terry is a DP character. Safe jump is reliable off Jackknife HK."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Buster Wolf",
+        "OD Rising Tackle"
+      ],
+      "trades": [],
+      "notes": "Risky vs Terry meter — Rising Tackle has strong invincibility."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Buster Wolf",
+        "OD Rising Tackle"
+      ],
+      "trades": [],
+      "notes": "Standard pressure."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Buster Wolf",
+        "OD Rising Tackle"
+      ],
+      "trades": [],
+      "notes": "Minimal oki."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Buster Wolf",
+        "OD Rising Tackle",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Terry’s Rising Tackle is a strong DP. Safe jump is the answer."
+    },
+    {
+      "id": "meaty_jab_sa1_killer",
+      "title": "Meaty 5LP (SA1/SA2 Killer)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA1 Power Geyser",
+        "SA2",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA3 Buster Wolf",
+        "OD Rising Tackle"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "SA1/SA2 have limited invincibility. Safe jump preferred if he has any drive gauge."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Power Geyser",
+      "invincibility": "Some invincibility",
+      "onBlock": -12,
+      "warning": "Has some invincibility startup — verify timing with safe jump"
+    },
+    {
+      "name": "SA3 — Buster Wolf",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Fully invincible — safe jump required"
+    },
+    {
+      "name": "OD Rising Tackle",
+      "invincibility": "Fully invincible f1–8",
+      "onBlock": -28,
+      "warning": "His DP reversal — fully invincible, use safe jump"
+    }
+  ]
+}

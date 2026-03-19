@@ -1,0 +1,202 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Dhalsim",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "dhalsim_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Dhalsim_2hk.png"
+    },
+    {
+      "id": "dhalsim_5hp",
+      "moveName": "Standing HP (close)",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": "Stretch normals can be spaced to be safe; this is only when close.",
+      "imageURL": "SF6_Dhalsim_5hp.png"
+    },
+    {
+      "id": "dhalsim_yoga_fire_l",
+      "moveName": "Yoga Fire (L)",
+      "category": "special",
+      "onBlock": -10,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Only punishable at very close range. Usually keeps safe distance.",
+      "imageURL": null
+    },
+    {
+      "id": "dhalsim_yoga_flame_l",
+      "moveName": "Yoga Flame (L)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": null
+    },
+    {
+      "id": "dhalsim_yoga_flame_m",
+      "moveName": "Yoga Flame (M)",
+      "category": "special",
+      "onBlock": -10,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": null
+    },
+    {
+      "id": "dhalsim_yoga_blast_h",
+      "moveName": "Yoga Blast (H)",
+      "category": "special",
+      "onBlock": -15,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": null
+    },
+    {
+      "id": "dhalsim_sa3",
+      "moveName": "Yoga Sunburst (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": null
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Yoga Sunburst",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Dhalsim has limited reversal tools. SA3 is his main threat."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Yoga Inferno",
+        "SA2 Yoga Catastrophe"
+      ],
+      "loses": [
+        "SA3 Yoga Sunburst"
+      ],
+      "trades": [],
+      "notes": "Dhalsim has no DP. Meaty pressure is very effective without SA3 meter."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Yoga Sunburst"
+      ],
+      "trades": [],
+      "notes": "Very strong oki vs Dhalsim. He relies on teleport escape."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Yoga Sunburst"
+      ],
+      "trades": [],
+      "notes": "Dhalsim’s lack of a DP makes meaty setups very strong."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (SA3 Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Yoga Sunburst",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Dhalsim has no DP and limited reversal options. Only SA3 threatens meaty setups."
+    },
+    {
+      "id": "meaty_mk_general",
+      "title": "Meaty cr.MK (Dominant Pressure)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "SA1 Yoga Inferno",
+        "SA2 Yoga Catastrophe",
+        "wake jab",
+        "wake throw"
+      ],
+      "loses": [
+        "SA3 Yoga Sunburst"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "Without SA3, Deejay’s oki is extremely oppressive on Dhalsim."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Yoga Inferno",
+      "invincibility": "No true invincibility",
+      "onBlock": -12,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA2 — Yoga Catastrophe",
+      "invincibility": "No true invincibility",
+      "onBlock": -25,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA3 — Yoga Sunburst",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "His only true reversal — safe jump required"
+    }
+  ]
+}

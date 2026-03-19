@@ -1,0 +1,214 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Blanka",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "blanka_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Blanka_5hp.png"
+    },
+    {
+      "id": "blanka_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Blanka_2hk.png"
+    },
+    {
+      "id": "blanka_blanka_ball_l",
+      "moveName": "Rolling Attack (L)",
+      "category": "special",
+      "onBlock": -10,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Blanka_236lk.png"
+    },
+    {
+      "id": "blanka_blanka_ball_m",
+      "moveName": "Rolling Attack (M)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Blanka_236lk.png"
+    },
+    {
+      "id": "blanka_blanka_ball_h",
+      "moveName": "Rolling Attack (H)",
+      "category": "special",
+      "onBlock": -15,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Blanka_236lk.png"
+    },
+    {
+      "id": "blanka_blanka_ball_od",
+      "moveName": "Rolling Attack (OD)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Blanka_236kk.png"
+    },
+    {
+      "id": "blanka_sa1",
+      "moveName": "Lightning Cannonball (SA1)",
+      "category": "super",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Has some invincibility on startup — use safe jump. Extend w/ OD/super.",
+      "imageURL": "SF6_Blanka_236236p.png"
+    },
+    {
+      "id": "blanka_sa3",
+      "moveName": "Great Autograph Tour (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Blanka_214214p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA1 Lightning Cannonball",
+        "SA3 Great Autograph Tour",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Safe jump beats Blanka’s main reversal options."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA2 Blanka-chan Dome"
+      ],
+      "loses": [
+        "SA1 Lightning Cannonball",
+        "SA3 Great Autograph Tour"
+      ],
+      "trades": [],
+      "notes": "SA2 has no invincibility. Risky vs SA1/SA3 meter."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA2 Blanka-chan Dome"
+      ],
+      "loses": [
+        "SA1 Lightning Cannonball",
+        "SA3 Great Autograph Tour"
+      ],
+      "trades": [],
+      "notes": "Good pressure without his meter."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA2"
+      ],
+      "loses": [
+        "SA1 Lightning Cannonball",
+        "SA3 Great Autograph Tour"
+      ],
+      "trades": [],
+      "notes": "Minimal oki."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA1 Lightning Cannonball",
+        "SA3 Great Autograph Tour",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": "cr.MP > DR cr.MP xx Jackknife HK",
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Blanka’s SA1 is his main reversal tool along with SA3. Safe jump handles both."
+    },
+    {
+      "id": "meaty_jab_sa2_killer",
+      "title": "Meaty 5LP (SA2 Killer)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA2 Blanka-chan Dome",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA1 Lightning Cannonball",
+        "SA3 Great Autograph Tour"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "SA2 has no invincibility. Good default if he lacks SA1/SA3 meter."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Lightning Cannonball",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -20,
+      "warning": "His main reversal super — has invincibility, use safe jump"
+    },
+    {
+      "name": "SA2 — Blanka-chan Dome",
+      "invincibility": "No true invincibility",
+      "onBlock": -25,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA3 — Great Autograph Tour",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Fully invincible — safe jump required"
+    }
+  ]
+}

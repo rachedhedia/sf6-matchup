@@ -1,0 +1,252 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Akuma",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "akuma_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Akuma_5hp.png"
+    },
+    {
+      "id": "akuma_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Akuma_2hk.png"
+    },
+    {
+      "id": "akuma_6hp",
+      "moveName": "Collarbone Breaker (6HP)",
+      "category": "uniqueAttack",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Akuma_6hp.png"
+    },
+    {
+      "id": "akuma_gou_shoryuken_l",
+      "moveName": "Gou Shoryuken (L)",
+      "category": "special",
+      "onBlock": -23,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Akuma_623lp.png"
+    },
+    {
+      "id": "akuma_gou_shoryuken_m",
+      "moveName": "Gou Shoryuken (M)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Akuma_623lp.png"
+    },
+    {
+      "id": "akuma_gou_shoryuken_h",
+      "moveName": "Gou Shoryuken (H)",
+      "category": "special",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Akuma_623lp.png"
+    },
+    {
+      "id": "akuma_gou_shoryuken_od",
+      "moveName": "Gou Shoryuken (OD)",
+      "category": "special",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — his primary meterless reversal.",
+      "imageURL": "SF6_Akuma_623pp.png"
+    },
+    {
+      "id": "akuma_tatsumaki_h",
+      "moveName": "Tatsumaki Zanku-kyaku (H)",
+      "category": "special",
+      "onBlock": -10,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Only H version this punishable; L/M safer.",
+      "imageURL": "SF6_Akuma_214k.png"
+    },
+    {
+      "id": "akuma_sa1",
+      "moveName": "Gou Hadoken Super (SA1)",
+      "category": "super",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Projectile invincible only — meaty normals beat it.",
+      "imageURL": "SF6_Akuma_236236p.png"
+    },
+    {
+      "id": "akuma_sa2",
+      "moveName": "Messatsu Goshoryu (SA2)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible DP super — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Akuma_236236k.png"
+    },
+    {
+      "id": "akuma_sa3",
+      "moveName": "Shun Goku Satsu (SA3)",
+      "category": "super",
+      "onBlock": -40,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Huge punish on block.",
+      "imageURL": "SF6_Akuma_214214k.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA2 Messatsu Goshoryu",
+        "SA3 Shun Goku Satsu",
+        "OD Gou Shoryuken",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Akuma is extremely dangerous. Safe jump is mandatory vs his meter."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 (projectile inv only)"
+      ],
+      "loses": [
+        "SA2 Messatsu Goshoryu",
+        "SA3 Shun Goku Satsu",
+        "OD Gou Shoryuken"
+      ],
+      "trades": [],
+      "notes": "Very risky vs Akuma — he has big damage on reversal. Respect the DP."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "shimmy bait"
+      ],
+      "loses": [
+        "SA2 Messatsu Goshoryu",
+        "SA3 Shun Goku Satsu",
+        "OD Gou Shoryuken"
+      ],
+      "trades": [],
+      "notes": "Standard pressure. Be wary of Akuma’s massive reversal damage."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw"
+      ],
+      "loses": [
+        "SA2 Messatsu Goshoryu",
+        "SA3 Shun Goku Satsu",
+        "OD Gou Shoryuken"
+      ],
+      "trades": [],
+      "notes": "Minimal oki. Akuma’s reversal damage is severe — don’t gamble."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA2 Messatsu Goshoryu",
+        "SA3 Shun Goku Satsu",
+        "OD Gou Shoryuken",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Akuma has two fully invincible supers plus OD DP. Safe jump is the only safe option."
+    },
+    {
+      "id": "deliberate_bait",
+      "title": "Deliberate Bait (Jump Back + Block)",
+      "afterMove": "Any knockdown (reversal read)",
+      "kdAdvantage": null,
+      "setup": "Jump back → land → block",
+      "beats": [
+        "SA2 Messatsu Goshoryu",
+        "SA3 Shun Goku Satsu"
+      ],
+      "loses": [
+        "Akuma does nothing (you waste your turn)"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Use when you have a strong reversal read. SA3 on block is a HUGE punish opportunity."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Gou Hadoken Super",
+      "invincibility": "Projectile invincible only",
+      "onBlock": -12,
+      "warning": "No strike invincibility — meaty normals beat it"
+    },
+    {
+      "name": "SA2 — Messatsu Goshoryu",
+      "invincibility": "Fully invincible f1–10",
+      "onBlock": -35,
+      "warning": "Fully invincible DP super — safe jump required"
+    },
+    {
+      "name": "SA3 — Shun Goku Satsu",
+      "invincibility": "Fully invincible f1–12",
+      "onBlock": -40,
+      "warning": "His most punishable super on block — huge damage but safe jump beats it"
+    },
+    {
+      "name": "OD Gou Shoryuken",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -30,
+      "warning": "Meterless strike-invincible reversal — safe jump beats it"
+    }
+  ]
+}

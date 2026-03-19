@@ -1,0 +1,29 @@
+{
+  "characters": [
+    { "id": "akuma",    "name": "Akuma",    "portraitURL": "https://wiki.supercombo.gg/images/thumb/b/be/SF6_Akuma_Portrait.png/300px-SF6_Akuma_Portrait.png",    "hasData": true },
+    { "id": "blanka",   "name": "Blanka",   "portraitURL": "https://wiki.supercombo.gg/images/thumb/4/43/SF6_Blanka_Portrait.png/300px-SF6_Blanka_Portrait.png",   "hasData": true },
+    { "id": "cammy",    "name": "Cammy",    "portraitURL": "https://wiki.supercombo.gg/images/thumb/1/12/SF6_Cammy_Portrait.png/300px-SF6_Cammy_Portrait.png",    "hasData": true },
+    { "id": "chun_li",  "name": "Chun-Li",  "portraitURL": "https://wiki.supercombo.gg/images/thumb/c/ca/SF6_Chun-Li_Portrait.png/250px-SF6_Chun-Li_Portrait.png",  "hasData": true },
+    { "id": "dee_jay",  "name": "Dee Jay",  "portraitURL": "https://wiki.supercombo.gg/images/thumb/5/52/SF6_Dee_Jay_Portrait.png/300px-SF6_Dee_Jay_Portrait.png",  "hasData": true },
+    { "id": "dhalsim",  "name": "Dhalsim",  "portraitURL": "https://wiki.supercombo.gg/images/thumb/e/e7/SF6_Dhalsim_Portrait.png/300px-SF6_Dhalsim_Portrait.png",  "hasData": true },
+    { "id": "e_honda",  "name": "E. Honda", "portraitURL": "https://wiki.supercombo.gg/images/thumb/6/6b/SF6_Ehonda_Portrait.png/300px-SF6_Ehonda_Portrait.png",   "hasData": true },
+    { "id": "ed",       "name": "Ed",       "portraitURL": "https://wiki.supercombo.gg/images/thumb/e/e7/SF6_Ed_Portrait.png/300px-SF6_Ed_Portrait.png",           "hasData": true },
+    { "id": "elena",    "name": "Elena",    "portraitURL": "https://wiki.supercombo.gg/images/thumb/7/7f/SF6_Elena_Portrait.png/300px-SF6_Elena_Portrait.png",    "hasData": true },
+    { "id": "guile",    "name": "Guile",    "portraitURL": "https://wiki.supercombo.gg/images/thumb/e/ef/SF6_Guile_Portrait.png/295px-SF6_Guile_Portrait.png",    "hasData": true },
+    { "id": "jamie",    "name": "Jamie",    "portraitURL": "https://wiki.supercombo.gg/images/thumb/a/a7/SF6_Jamie_Portrait.png/300px-SF6_Jamie_Portrait.png",    "hasData": true },
+    { "id": "jp",       "name": "JP",       "portraitURL": "https://wiki.supercombo.gg/images/thumb/4/45/SF6_JP_Portrait.png/246px-SF6_JP_Portrait.png",           "hasData": true },
+    { "id": "juri",     "name": "Juri",     "portraitURL": "https://wiki.supercombo.gg/images/thumb/1/15/SF6_Juri_Portrait.png/300px-SF6_Juri_Portrait.png",     "hasData": true },
+    { "id": "ken",      "name": "Ken",      "portraitURL": "https://wiki.supercombo.gg/images/thumb/0/05/SF6_Ken_Portrait.png/300px-SF6_Ken_Portrait.png",       "hasData": true },
+    { "id": "kimberly", "name": "Kimberly", "portraitURL": "https://wiki.supercombo.gg/images/thumb/7/73/SF6_Kimberly_Portrait.png/300px-SF6_Kimberly_Portrait.png", "hasData": true },
+    { "id": "lily",     "name": "Lily",     "portraitURL": "https://wiki.supercombo.gg/images/thumb/5/58/SF6_Lily_Portrait.png/300px-SF6_Lily_Portrait.png",     "hasData": true },
+    { "id": "luke",     "name": "Luke",     "portraitURL": "https://wiki.supercombo.gg/images/thumb/f/f7/SF6_Luke_Portrait.png/300px-SF6_Luke_Portrait.png",     "hasData": true },
+    { "id": "m_bison",  "name": "M. Bison", "portraitURL": "https://wiki.supercombo.gg/images/thumb/6/69/SF6_Mbison_Portrait.png/272px-SF6_Mbison_Portrait.png",  "hasData": true },
+    { "id": "mai",      "name": "Mai",      "portraitURL": "https://wiki.supercombo.gg/images/thumb/8/86/SF6_Mai_Portrait.png/300px-SF6_Mai_Portrait.png",       "hasData": true },
+    { "id": "manon",    "name": "Manon",    "portraitURL": "https://wiki.supercombo.gg/images/thumb/e/e2/SF6_Manon_Portrait.png/300px-SF6_Manon_Portrait.png",    "hasData": true },
+    { "id": "marisa",   "name": "Marisa",   "portraitURL": "https://wiki.supercombo.gg/images/thumb/4/44/SF6_Marisa_Portrait.png/300px-SF6_Marisa_Portrait.png",   "hasData": true },
+    { "id": "rashid",   "name": "Rashid",   "portraitURL": "https://wiki.supercombo.gg/images/thumb/b/b2/SF6_Rashid_Portrait.png/300px-SF6_Rashid_Portrait.png",   "hasData": true },
+    { "id": "ryu",      "name": "Ryu",      "portraitURL": "https://wiki.supercombo.gg/images/thumb/1/19/SF6_Ryu_Portrait.png/287px-SF6_Ryu_Portrait.png",       "hasData": true },
+    { "id": "terry",    "name": "Terry",    "portraitURL": "https://wiki.supercombo.gg/images/thumb/6/64/SF6_Terry_Portrait.png/273px-SF6_Terry_Portrait.png",    "hasData": true },
+    { "id": "zangief",  "name": "Zangief",  "portraitURL": "https://wiki.supercombo.gg/images/thumb/3/36/SF6_Zangief_Portrait.png/300px-SF6_Zangief_Portrait.png",  "hasData": true }
+  ]
+}

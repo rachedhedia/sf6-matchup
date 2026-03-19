@@ -1,0 +1,389 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Kimberly",
+    "patch": "2024-12",
+    "source": "ultimateframedata.com + wiki.supercombo.gg"
+  },
+  "punishes": [
+    {
+      "id": "standing_hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/e/e0/SF6_Kimberly_5hp.png"
+    },
+    {
+      "id": "standing_mk",
+      "moveName": "Standing MK",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/6/61/SF6_Kimberly_5mk.png"
+    },
+    {
+      "id": "crouching_hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -10,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/d/db/SF6_Kimberly_2hk.png"
+    },
+    {
+      "id": "bushin_hojin_kick",
+      "moveName": "Bushin Hojin Kick",
+      "category": "uniqueAttack",
+      "onBlock": -8,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/8/81/SF6_Kimberly_236k_prox_k.png"
+    },
+    {
+      "id": "water_slicer_slide",
+      "moveName": "Water Slicer Slide",
+      "category": "sprintFollowup",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": "Timing dependent — can be 0 at best spacing. Only punishable at worst frames.",
+      "imageURL": "https://wiki.supercombo.gg/images/a/a5/SF6_Kimberly_3mk.png"
+    },
+    {
+      "id": "arc_step_empty",
+      "moveName": "Arc Step (Empty)",
+      "category": "sprintFollowup",
+      "onBlock": -6,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/5/58/SF6_Kimberly_236k_prox.png"
+    },
+    {
+      "id": "hisen_kick_step_up",
+      "moveName": "Hisen Kick Step Up",
+      "category": "sprintFollowup",
+      "onBlock": -15,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/a/a6/SF6_Kimberly_6hk_8.png"
+    },
+    {
+      "id": "vagabond_edge_l",
+      "moveName": "Vagabond Edge (L)",
+      "category": "special",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/3/34/SF6_Kimberly_236lp.png"
+    },
+    {
+      "id": "vagabond_edge_m",
+      "moveName": "Vagabond Edge (M)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/1/11/SF6_Kimberly_236mp.png"
+    },
+    {
+      "id": "vagabond_edge_h",
+      "moveName": "Vagabond Edge (H)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/3/30/SF6_Kimberly_236hp.png"
+    },
+    {
+      "id": "vagabond_edge_od",
+      "moveName": "Vagabond Edge (OD)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/d/d0/SF6_Kimberly_236pp.png"
+    },
+    {
+      "id": "shadow_slide",
+      "moveName": "Shadow Slide (Close)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Spacing dependent — only punishable at close range.",
+      "imageURL": "https://wiki.supercombo.gg/images/6/64/SF6_Kimberly_236k_mk.png"
+    },
+    {
+      "id": "bushin_prism_strikes",
+      "moveName": "Bushin Prism Strikes (Full)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/b/b6/SF6_Kimberly_5lp_mp_hp_hk.png"
+    },
+    {
+      "id": "bushin_hellchain",
+      "moveName": "Bushin Hellchain (Full)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "https://wiki.supercombo.gg/images/6/6c/SF6_Kimberly_5lp_mp_2hp_2hk.png"
+    },
+    {
+      "id": "bushin_senpukyaku_l",
+      "moveName": "Bushin Senpukyaku (L)",
+      "category": "special",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend with OD/super if available.",
+      "imageURL": "https://wiki.supercombo.gg/images/c/c3/SF6_Kimberly_214lk.png"
+    },
+    {
+      "id": "bushin_senpukyaku_m",
+      "moveName": "Bushin Senpukyaku (M)",
+      "category": "special",
+      "onBlock": -32,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend with OD/super if available.",
+      "imageURL": "https://wiki.supercombo.gg/images/c/c3/SF6_Kimberly_214lk.png"
+    },
+    {
+      "id": "bushin_senpukyaku_h",
+      "moveName": "Bushin Senpukyaku (H)",
+      "category": "special",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend with OD/super if available.",
+      "imageURL": "https://wiki.supercombo.gg/images/c/c3/SF6_Kimberly_214lk.png"
+    },
+    {
+      "id": "bushin_senpukyaku_od",
+      "moveName": "Bushin Senpukyaku (OD)",
+      "category": "special",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend with OD/super if available.",
+      "imageURL": "https://wiki.supercombo.gg/images/7/7c/SF6_Kimberly_214kk.png"
+    },
+    {
+      "id": "bushin_beats_sa1",
+      "moveName": "Bushin Beats (SA1)",
+      "category": "super",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend with OD/super if available.",
+      "imageURL": "https://wiki.supercombo.gg/images/d/d3/SF6_Kimberly_236236k.png"
+    },
+    {
+      "id": "bushin_scramble_sa2",
+      "moveName": "Bushin Scramble (SA2)",
+      "category": "super",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend with OD/super if available.",
+      "imageURL": "https://wiki.supercombo.gg/images/e/e7/SF6_Kimberly_214214p.png"
+    },
+    {
+      "id": "bushin_ninjastar_cypher_sa3",
+      "moveName": "Bushin Ninjastar Cypher (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend with OD/super if available.",
+      "imageURL": "https://wiki.supercombo.gg/images/4/48/SF6_Kimberly_236236p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump \u2192 j.X (Safe Jump)",
+      "beats": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher", "OD reversal", "wake throw"],
+      "loses": [],
+      "trades": [],
+      "notes": "KD +42 gives exactly the right window. If she reversal supers, you land in time to block and punish."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward \u2192 meaty cr.MK",
+      "beats": ["wake jab", "wake throw", "back rise attempt"],
+      "loses": ["SA1 Bushin Beats (strike invincible)", "SA3 Ninjastar Cypher (fully invincible)"],
+      "trades": [],
+      "notes": "Higher reward if she doesn't reversal. Risky vs. super-happy players."
+    },
+    {
+      "id": "jackknife_grounded_safe_jump",
+      "afterMove": "MK / HK Jackknife (Grounded)",
+      "kdAdvantage": 37,
+      "setup": "Neutral Jump \u2192 j.2LK (Dive Kick, Safe Jump)",
+      "beats": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher", "wake throw"],
+      "loses": [],
+      "trades": [],
+      "notes": "+36\u201337 is the safe jump window for j.2LK specifically."
+    },
+    {
+      "id": "jackknife_grounded_meaty_mk",
+      "afterMove": "MK / HK Jackknife (Grounded)",
+      "kdAdvantage": 37,
+      "setup": "Walk forward \u2192 meaty cr.MK",
+      "beats": ["wake jab", "wake throw"],
+      "loses": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher"],
+      "trades": [],
+      "notes": "Same risk profile as after Jackknife Maximum HK."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash \u2192 Whiff 5LP \u2192 Throw Loop",
+      "beats": ["wake throw (throw tech loop)", "shimmy threat"],
+      "loses": ["SA1 Bushin Beats (also throw invincible!)", "SA3 Ninjastar Cypher"],
+      "trades": [],
+      "notes": "Classic throw loop. Note SA1 has THROW invincibility \u2014 this setup does NOT work against reversal SA1."
+    },
+    {
+      "id": "forward_throw_meaty_mp",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash \u2192 meaty cr.MP",
+      "beats": ["wake jab", "wake throw"],
+      "loses": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher"],
+      "trades": [],
+      "notes": "More combo reward on hit than throw loop. Same risk vs. supers."
+    },
+    {
+      "id": "sweep_late_safe_jump",
+      "afterMove": "cr.HK Sweep (Late Hit, +42)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump \u2192 j.X (Safe Jump)",
+      "beats": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher", "OD reversal", "wake throw"],
+      "loses": [],
+      "trades": [],
+      "notes": "Late active frame hit gives +42 \u2014 same advantage as Jackknife Maximum HK. Same safe jump applies."
+    },
+    {
+      "id": "sweep_early_meaty_mk",
+      "afterMove": "cr.HK Sweep (Early Hit, +33)",
+      "kdAdvantage": 33,
+      "setup": "Walk forward \u2192 meaty cr.MK",
+      "beats": ["wake jab", "wake throw"],
+      "loses": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher"],
+      "trades": [],
+      "notes": "Not enough advantage for safe jump at +33. Meaty cr.MK is the best option here."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP (tight timing)",
+      "beats": ["wake throw"],
+      "loses": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher"],
+      "trades": [],
+      "notes": "Minimal oki \u2014 forward dash only leaves +3 after side switch. Prioritize defensive positioning."
+    },
+    {
+      "id": "crmk_meaty",
+      "afterMove": "cr.MK",
+      "kdAdvantage": 29,
+      "setup": "Walk forward \u2192 meaty cr.LK or cr.MK",
+      "beats": ["wake jab", "wake throw"],
+      "loses": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher"],
+      "trades": [],
+      "notes": "Solid oki. Not enough advantage for safe jump without meter."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK) or cr.HK late hit (+42)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump \u2192 j.X",
+      "beats": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher", "OD Reversal / Hidden Variable", "wake throw"],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": "cr.MP > DR cr.MP xx Jackknife HK",
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend with OD/super)",
+      "notes": "The go-to setup. KD +42 is exactly right. Land before super hits, block it, punish hard. Practice this off every Jackknife HK ender."
+    },
+    {
+      "id": "deliberate_bait",
+      "title": "Deliberate Bait (Jump Back + Block)",
+      "afterMove": "Any knockdown (reversal read)",
+      "kdAdvantage": null,
+      "setup": "Jump back / neutral jump \u2192 land \u2192 block",
+      "beats": ["SA1 Bushin Beats (block and punish \u221225)", "SA3 Ninjastar Cypher (block and punish \u221235)"],
+      "loses": ["Kimberly does nothing (you waste your turn)"],
+      "trades": [],
+      "punishAfterBlockedSA1": "cr.MP > DR cr.MP xx Jackknife HK",
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend with OD/super)",
+      "notes": "Use when you have a strong read that she will reversal super. More of a game-plan decision than a frame-data setup."
+    },
+    {
+      "id": "meaty_jab_sa2_killer",
+      "title": "Meaty 5LP (SA2 Killer)",
+      "afterMove": "Any knockdown with meaty opportunity",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP or cr.LP",
+      "beats": ["SA2 Bushin Scramble (no true invincibility)", "wake throw", "wake jab"],
+      "loses": ["SA1 Bushin Beats (strike invincible f1\u201310)", "SA3 Ninjastar Cypher (fully invincible f1\u201311)"],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "Good default when she doesn't have SA1 or SA3 meter. If she's reversal-happy with super, use the safe jump instead."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 \u2014 Bushin Beats",
+      "invincibility": "Strike + Throw invincible f1\u201310",
+      "onBlock": -25,
+      "warning": "Throw invincible too \u2014 delayed throw does NOT beat this"
+    },
+    {
+      "name": "SA3 \u2014 Bushin Ninjastar Cypher",
+      "invincibility": "Fully invincible f1\u201311",
+      "onBlock": -35,
+      "warning": "Expensive but extremely rewarding on hit"
+    },
+    {
+      "name": "SA2 \u2014 Bushin Scramble",
+      "invincibility": "No true invincibility",
+      "onBlock": -25,
+      "warning": "Teleports upward \u2014 loses to meaty normals"
+    },
+    {
+      "name": "Hidden Variable (OD)",
+      "invincibility": "Full invincibility f19\u201326",
+      "onBlock": null,
+      "warning": "Very slow startup \u2014 any early meaty beats it easily"
+    }
+  ]
+}

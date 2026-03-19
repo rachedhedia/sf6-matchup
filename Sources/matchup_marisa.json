@@ -1,0 +1,196 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Marisa",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "marisa_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Marisa_5hp.png"
+    },
+    {
+      "id": "marisa_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Marisa_2hk.png"
+    },
+    {
+      "id": "marisa_6hp",
+      "moveName": "Gladius (6HP)",
+      "category": "uniqueAttack",
+      "onBlock": -8,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Marisa_6mp_hp.png"
+    },
+    {
+      "id": "marisa_quadriga_l",
+      "moveName": "Quadriga (L)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Marisa_214lp.png"
+    },
+    {
+      "id": "marisa_quadriga_m",
+      "moveName": "Quadriga (M)",
+      "category": "special",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Marisa_214lp.png"
+    },
+    {
+      "id": "marisa_scutum_l",
+      "moveName": "Scutum (L)",
+      "category": "special",
+      "onBlock": -14,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Reflect/counter move — punish after it fails to absorb.",
+      "imageURL": "SF6_Marisa_623lp.png"
+    },
+    {
+      "id": "marisa_sa3",
+      "moveName": "Tourbillon (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Marisa_214214p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Tourbillon",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Marisa has no DP. SA3 is her only true reversal."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Phalanx",
+        "SA2 Scutum Super"
+      ],
+      "loses": [
+        "SA3 Tourbillon"
+      ],
+      "trades": [],
+      "notes": "Without SA3, Marisa has no invincible reversal. Meaty pressure is very strong."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Tourbillon"
+      ],
+      "trades": [],
+      "notes": "Marisa is an offensive character with weak reversal options."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Tourbillon"
+      ],
+      "trades": [],
+      "notes": "Minimal oki but Marisa’s lack of DP makes this safe."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (SA3 Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Tourbillon",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Marisa has no DP. SA3 is her only reversal. Without it, oki is very free."
+    },
+    {
+      "id": "meaty_mk_dominant",
+      "title": "Meaty cr.MK (Strong Default)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "SA1 Phalanx",
+        "SA2",
+        "wake jab",
+        "wake throw"
+      ],
+      "loses": [
+        "SA3 Tourbillon"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "Marisa’s lack of DP makes Deejay’s oki very dominant when SA3 is absent."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Phalanx",
+      "invincibility": "No true invincibility",
+      "onBlock": -15,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA3 — Tourbillon",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Her only true reversal — safe jump required"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Rashid",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "rashid_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Rashid_5hp.png"
+    },
+    {
+      "id": "rashid_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Rashid_2hk.png"
+    },
+    {
+      "id": "rashid_6mk",
+      "moveName": "Trick Step (6MK)",
+      "category": "uniqueAttack",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Rashid_6hp.png"
+    },
+    {
+      "id": "rashid_spinning_mixer_l",
+      "moveName": "Spinning Mixer (L)",
+      "category": "special",
+      "onBlock": -18,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Rashid_214lk.png"
+    },
+    {
+      "id": "rashid_spinning_mixer_m",
+      "moveName": "Spinning Mixer (M)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Rashid_214mk.png"
+    },
+    {
+      "id": "rashid_eagle_spike_l",
+      "moveName": "Eagle Spike (L)",
+      "category": "special",
+      "onBlock": -22,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Rashid_214lk.png"
+    },
+    {
+      "id": "rashid_sa2",
+      "moveName": "Altair (SA2)",
+      "category": "super",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Rashid_236236p.png"
+    },
+    {
+      "id": "rashid_sa3",
+      "moveName": "Ysaar (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Rashid_214214k.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Ysaar",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Rashid has limited reversal options. SA3 is his main threat."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Rolling Assault",
+        "SA2 Altair"
+      ],
+      "loses": [
+        "SA3 Ysaar (fully invincible)"
+      ],
+      "trades": [],
+      "notes": "Rashid’s SA1/SA2 lack full invincibility — meaty pressure is strong here."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "shimmy bait",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Ysaar"
+      ],
+      "trades": [],
+      "notes": "Good pressure — Rashid has weak oki defense without SA3."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Ysaar"
+      ],
+      "trades": [],
+      "notes": "Minimal oki but effective — Rashid struggles on wakeup without meter."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (SA3 Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Ysaar",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Rashid’s only fully invincible reversal is SA3. Without meter, meaty normals are very effective."
+    },
+    {
+      "id": "meaty_mk_general",
+      "title": "Meaty cr.MK (Meterless Pressure)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "SA1 Rolling Assault",
+        "SA2 Altair",
+        "wake jab",
+        "wake throw"
+      ],
+      "loses": [
+        "SA3 Ysaar"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "Without SA3, Rashid has no true reversal. Meaty pressure is very strong here."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Rolling Assault",
+      "invincibility": "No true invincibility",
+      "onBlock": -20,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA2 — Altair",
+      "invincibility": "No true invincibility",
+      "onBlock": -28,
+      "warning": "Loses to meaty normals — good punish opportunity"
+    },
+    {
+      "name": "SA3 — Ysaar",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "His only true reversal super — safe jump required"
+    }
+  ]
+}

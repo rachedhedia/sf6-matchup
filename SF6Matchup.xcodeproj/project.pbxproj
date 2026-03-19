@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001000000000000AA01 /* CharacterSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000AA02 /* CharacterSelectView.swift */; };
+		AA000003000000000000AA03 /* roster.json in Resources */ = {isa = PBXBuildFile; fileRef = AA000004000000000000AA04 /* roster.json */; };
+		BB000100000000000000BB00 /* matchup_ryu.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000100000000000000BB01 /* matchup_ryu.json */; };
+		BB000200000000000000BB00 /* matchup_ken.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000200000000000000BB01 /* matchup_ken.json */; };
+		BB000300000000000000BB00 /* matchup_luke.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000300000000000000BB01 /* matchup_luke.json */; };
+		BB000400000000000000BB00 /* matchup_akuma.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000400000000000000BB01 /* matchup_akuma.json */; };
+		BB000500000000000000BB00 /* matchup_cammy.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000500000000000000BB01 /* matchup_cammy.json */; };
+		BB000600000000000000BB00 /* matchup_juri.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000600000000000000BB01 /* matchup_juri.json */; };
+		BB000700000000000000BB00 /* matchup_rashid.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000700000000000000BB01 /* matchup_rashid.json */; };
+		BB000800000000000000BB00 /* matchup_ed.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000800000000000000BB01 /* matchup_ed.json */; };
+		BB000900000000000000BB00 /* matchup_guile.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000900000000000000BB01 /* matchup_guile.json */; };
+		BB000A00000000000000BB00 /* matchup_dhalsim.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000A00000000000000BB01 /* matchup_dhalsim.json */; };
+		BB000B00000000000000BB00 /* matchup_jp.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000B00000000000000BB01 /* matchup_jp.json */; };
+		BB000C00000000000000BB00 /* matchup_blanka.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000C00000000000000BB01 /* matchup_blanka.json */; };
+		BB000D00000000000000BB00 /* matchup_manon.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000D00000000000000BB01 /* matchup_manon.json */; };
+		BB000E00000000000000BB00 /* matchup_marisa.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000E00000000000000BB01 /* matchup_marisa.json */; };
+		BB000F00000000000000BB00 /* matchup_zangief.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000F00000000000000BB01 /* matchup_zangief.json */; };
+		BB001000000000000000BB00 /* matchup_e_honda.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001000000000000000BB01 /* matchup_e_honda.json */; };
+		BB001100000000000000BB00 /* matchup_chun_li.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001100000000000000BB01 /* matchup_chun_li.json */; };
+		BB001200000000000000BB00 /* matchup_jamie.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001200000000000000BB01 /* matchup_jamie.json */; };
+		BB001300000000000000BB00 /* matchup_lily.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001300000000000000BB01 /* matchup_lily.json */; };
+		BB001400000000000000BB00 /* matchup_terry.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001400000000000000BB01 /* matchup_terry.json */; };
+		BB001500000000000000BB00 /* matchup_dee_jay.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001500000000000000BB01 /* matchup_dee_jay.json */; };
+		BB001600000000000000BB00 /* matchup_mai.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001600000000000000BB01 /* matchup_mai.json */; };
+		BB001700000000000000BB00 /* matchup_elena.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001700000000000000BB01 /* matchup_elena.json */; };
+		BB001800000000000000BB00 /* matchup_m_bison.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001800000000000000BB01 /* matchup_m_bison.json */; };
+		08E62DC3FBCD7268B0F5E3E5 /* MatchupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8531B6E56E20435E73D62C6B /* MatchupViewModel.swift */; };
+		20317A97CE508C9E0B762335 /* PunishCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022F6F94592056641A09AEF4 /* PunishCard.swift */; };
+		20A628855E0DEDF22A12D9A7 /* MeatySetupCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CD4FA9E897D38BC41021 /* MeatySetupCard.swift */; };
+		4926F7A39856E8723C4A21EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCFE9C62657CE57B167AC3 /* ContentView.swift */; };
+		67191335576258F0D21766EC /* MatchupModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073C46DCDA2446AC30FA44F /* MatchupModels.swift */; };
+		73E501F7D65BD22EC6FF3B7B /* MeatySetupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F840D2BC980D61AE096222 /* MeatySetupsView.swift */; };
+		7B81C3CF7CBD5DE55DFD90C5 /* SF6MatchupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19F8E267A4B85676A4AC10 /* SF6MatchupApp.swift */; };
+		7E39F78E9D4ADCFAEFA40EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1376B874895FD0F7C1C7E6 /* Assets.xcassets */; };
+		852A91B95257720B6EF5A2D7 /* matchup.json in Resources */ = {isa = PBXBuildFile; fileRef = 85037F5E34EE27733AFC0EDA /* matchup.json */; };
+		882075C2AABBB381EACEB0A8 /* WakeUpCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6648956820F3C0670CFF07 /* WakeUpCard.swift */; };
+		A14F59CB3DBA8BEA690E2B52 /* CollapsibleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AC48A67A24D7705C37B9C8 /* CollapsibleSection.swift */; };
+		AD9A3EE3D3A1CFE0024AA594 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B85E72F5B8F4F04A699E678 /* AppColors.swift */; };
+		CFD4EC202B5B02C7E01F1020 /* PunishGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE75607CD23BACB93703A1 /* PunishGuideView.swift */; };
+		EFB3F16E2CC99731FEADC1E5 /* WakeUpKillersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8066F1AD0A9DDE450486441 /* WakeUpKillersView.swift */; };
+		CC001100000000000000CC00 = {isa = PBXBuildFile; fileRef = CC001100000000000000CC01; };
+		/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA000002000000000000AA02 /* CharacterSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectView.swift; sourceTree = "<group>"; };
+		AA000004000000000000AA04 /* roster.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roster.json; sourceTree = "<group>"; };
+		BB000100000000000000BB01 /* matchup_ryu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_ryu.json; sourceTree = "<group>"; };
+		BB000200000000000000BB01 /* matchup_ken.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_ken.json; sourceTree = "<group>"; };
+		BB000300000000000000BB01 /* matchup_luke.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_luke.json; sourceTree = "<group>"; };
+		BB000400000000000000BB01 /* matchup_akuma.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_akuma.json; sourceTree = "<group>"; };
+		BB000500000000000000BB01 /* matchup_cammy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_cammy.json; sourceTree = "<group>"; };
+		BB000600000000000000BB01 /* matchup_juri.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_juri.json; sourceTree = "<group>"; };
+		BB000700000000000000BB01 /* matchup_rashid.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_rashid.json; sourceTree = "<group>"; };
+		BB000800000000000000BB01 /* matchup_ed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_ed.json; sourceTree = "<group>"; };
+		BB000900000000000000BB01 /* matchup_guile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_guile.json; sourceTree = "<group>"; };
+		BB000A00000000000000BB01 /* matchup_dhalsim.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_dhalsim.json; sourceTree = "<group>"; };
+		BB000B00000000000000BB01 /* matchup_jp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_jp.json; sourceTree = "<group>"; };
+		BB000C00000000000000BB01 /* matchup_blanka.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_blanka.json; sourceTree = "<group>"; };
+		BB000D00000000000000BB01 /* matchup_manon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_manon.json; sourceTree = "<group>"; };
+		BB000E00000000000000BB01 /* matchup_marisa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_marisa.json; sourceTree = "<group>"; };
+		BB000F00000000000000BB01 /* matchup_zangief.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_zangief.json; sourceTree = "<group>"; };
+		BB001000000000000000BB01 /* matchup_e_honda.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_e_honda.json; sourceTree = "<group>"; };
+		BB001100000000000000BB01 /* matchup_chun_li.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_chun_li.json; sourceTree = "<group>"; };
+		BB001200000000000000BB01 /* matchup_jamie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_jamie.json; sourceTree = "<group>"; };
+		BB001300000000000000BB01 /* matchup_lily.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_lily.json; sourceTree = "<group>"; };
+		BB001400000000000000BB01 /* matchup_terry.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_terry.json; sourceTree = "<group>"; };
+		BB001500000000000000BB01 /* matchup_dee_jay.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_dee_jay.json; sourceTree = "<group>"; };
+		BB001600000000000000BB01 /* matchup_mai.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_mai.json; sourceTree = "<group>"; };
+		BB001700000000000000BB01 /* matchup_elena.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_elena.json; sourceTree = "<group>"; };
+		BB001800000000000000BB01 /* matchup_m_bison.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_m_bison.json; sourceTree = "<group>"; };
+		022F6F94592056641A09AEF4 /* PunishCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunishCard.swift; sourceTree = "<group>"; };
+		0B85E72F5B8F4F04A699E678 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		12E6CD4FA9E897D38BC41021 /* MeatySetupCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatySetupCard.swift; sourceTree = "<group>"; };
+		3ACCFE9C62657CE57B167AC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A19F8E267A4B85676A4AC10 /* SF6MatchupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF6MatchupApp.swift; sourceTree = "<group>"; };
+		71AC48A67A24D7705C37B9C8 /* CollapsibleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleSection.swift; sourceTree = "<group>"; };
+		85037F5E34EE27733AFC0EDA /* matchup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup.json; sourceTree = "<group>"; };
+		8531B6E56E20435E73D62C6B /* MatchupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchupViewModel.swift; sourceTree = "<group>"; };
+		96F840D2BC980D61AE096222 /* MeatySetupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatySetupsView.swift; sourceTree = "<group>"; };
+		AE1376B874895FD0F7C1C7E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B073C46DCDA2446AC30FA44F /* MatchupModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchupModels.swift; sourceTree = "<group>"; };
+		BE6648956820F3C0670CFF07 /* WakeUpCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpCard.swift; sourceTree = "<group>"; };
+		D8066F1AD0A9DDE450486441 /* WakeUpKillersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpKillersView.swift; sourceTree = "<group>"; };
+		E1EBE11F4A7B3E7C1FC44B54 /* SF6Matchup.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SF6Matchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEE75607CD23BACB93703A1 /* PunishGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunishGuideView.swift; sourceTree = "<group>"; };
+		CC001100000000000000CC01 = {isa = PBXFileReference; lastKnownFileType = folder; name = MoveImages; path = Sources/MoveImages; sourceTree = "<group>"; };
+		/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07A94B57787DEFC6E0513315 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002000000000000AA02 /* CharacterSelectView.swift */,
+				96F840D2BC980D61AE096222 /* MeatySetupsView.swift */,
+				EFEE75607CD23BACB93703A1 /* PunishGuideView.swift */,
+				D8066F1AD0A9DDE450486441 /* WakeUpKillersView.swift */,
+				E177091CE81780CD83C060F9 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		438F90AD1298EA6FC1D5680F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B073C46DCDA2446AC30FA44F /* MatchupModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69C938A8419932544FF7827C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AE1376B874895FD0F7C1C7E6 /* Assets.xcassets */,
+				3ACCFE9C62657CE57B167AC3 /* ContentView.swift */,
+				85037F5E34EE27733AFC0EDA /* matchup.json */,
+				AA000004000000000000AA04 /* roster.json */,
+				BB000100000000000000BB01 /* matchup_ryu.json */,
+				BB000200000000000000BB01 /* matchup_ken.json */,
+				BB000300000000000000BB01 /* matchup_luke.json */,
+				BB000400000000000000BB01 /* matchup_akuma.json */,
+				BB000500000000000000BB01 /* matchup_cammy.json */,
+				BB000600000000000000BB01 /* matchup_juri.json */,
+				BB000700000000000000BB01 /* matchup_rashid.json */,
+				BB000800000000000000BB01 /* matchup_ed.json */,
+				BB000900000000000000BB01 /* matchup_guile.json */,
+				BB000A00000000000000BB01 /* matchup_dhalsim.json */,
+				BB000B00000000000000BB01 /* matchup_jp.json */,
+				BB000C00000000000000BB01 /* matchup_blanka.json */,
+				BB000D00000000000000BB01 /* matchup_manon.json */,
+				BB000E00000000000000BB01 /* matchup_marisa.json */,
+				BB000F00000000000000BB01 /* matchup_zangief.json */,
+				BB001000000000000000BB01 /* matchup_e_honda.json */,
+				BB001100000000000000BB01 /* matchup_chun_li.json */,
+				BB001200000000000000BB01 /* matchup_jamie.json */,
+				BB001300000000000000BB01 /* matchup_lily.json */,
+				BB001400000000000000BB01 /* matchup_terry.json */,
+				BB001500000000000000BB01 /* matchup_dee_jay.json */,
+				BB001600000000000000BB01 /* matchup_mai.json */,
+				BB001700000000000000BB01 /* matchup_elena.json */,
+				BB001800000000000000BB01 /* matchup_m_bison.json */,
+				5A19F8E267A4B85676A4AC10 /* SF6MatchupApp.swift */,
+				438F90AD1298EA6FC1D5680F /* Models */,
+				D23B843FE1FC694C275646DE /* Utils */,
+				E613FE15CFBB9FC032ECDE50 /* ViewModels */,
+				07A94B57787DEFC6E0513315 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C565164470C948A3FC79E35C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBE11F4A7B3E7C1FC44B54 /* SF6Matchup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D23B843FE1FC694C275646DE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0B85E72F5B8F4F04A699E678 /* AppColors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D79192D5ACB7DB7F78B00A7E = {
+			isa = PBXGroup;
+			children = (
+				69C938A8419932544FF7827C /* Sources */,
+				C565164470C948A3FC79E35C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E177091CE81780CD83C060F9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				71AC48A67A24D7705C37B9C8 /* CollapsibleSection.swift */,
+				12E6CD4FA9E897D38BC41021 /* MeatySetupCard.swift */,
+				022F6F94592056641A09AEF4 /* PunishCard.swift */,
+				BE6648956820F3C0670CFF07 /* WakeUpCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E613FE15CFBB9FC032ECDE50 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8531B6E56E20435E73D62C6B /* MatchupViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6A1BA2912962C4C97BA6B2A /* SF6Matchup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C13797310BEBBF569A6082 /* Build configuration list for PBXNativeTarget "SF6Matchup" */;
+			buildPhases = (
+				CB43BCC2375DC7E51FBF1D74 /* Sources */,
+				E22E09252FE426C3BC6CF421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SF6Matchup;
+			packageProductDependencies = (
+			);
+			productName = SF6Matchup;
+			productReference = E1EBE11F4A7B3E7C1FC44B54 /* SF6Matchup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31F9614C976DCFC0BE5AC22F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 360CFF086C9CE2500476A514 /* Build configuration list for PBXProject "SF6Matchup" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D79192D5ACB7DB7F78B00A7E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C565164470C948A3FC79E35C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6A1BA2912962C4C97BA6B2A /* SF6Matchup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E22E09252FE426C3BC6CF421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E39F78E9D4ADCFAEFA40EF8 /* Assets.xcassets in Resources */,
+				852A91B95257720B6EF5A2D7 /* matchup.json in Resources */,
+				AA000003000000000000AA03 /* roster.json in Resources */,
+				BB000100000000000000BB00 /* matchup_ryu.json in Resources */,
+				BB000200000000000000BB00 /* matchup_ken.json in Resources */,
+				BB000300000000000000BB00 /* matchup_luke.json in Resources */,
+				BB000400000000000000BB00 /* matchup_akuma.json in Resources */,
+				BB000500000000000000BB00 /* matchup_cammy.json in Resources */,
+				BB000600000000000000BB00 /* matchup_juri.json in Resources */,
+				BB000700000000000000BB00 /* matchup_rashid.json in Resources */,
+				BB000800000000000000BB00 /* matchup_ed.json in Resources */,
+				BB000900000000000000BB00 /* matchup_guile.json in Resources */,
+				BB000A00000000000000BB00 /* matchup_dhalsim.json in Resources */,
+				BB000B00000000000000BB00 /* matchup_jp.json in Resources */,
+				BB000C00000000000000BB00 /* matchup_blanka.json in Resources */,
+				BB000D00000000000000BB00 /* matchup_manon.json in Resources */,
+				BB000E00000000000000BB00 /* matchup_marisa.json in Resources */,
+				BB000F00000000000000BB00 /* matchup_zangief.json in Resources */,
+				BB001000000000000000BB00 /* matchup_e_honda.json in Resources */,
+				BB001100000000000000BB00 /* matchup_chun_li.json in Resources */,
+				BB001200000000000000BB00 /* matchup_jamie.json in Resources */,
+				BB001300000000000000BB00 /* matchup_lily.json in Resources */,
+				BB001400000000000000BB00 /* matchup_terry.json in Resources */,
+				BB001500000000000000BB00 /* matchup_dee_jay.json in Resources */,
+				BB001600000000000000BB00 /* matchup_mai.json in Resources */,
+				BB001700000000000000BB00 /* matchup_elena.json in Resources */,
+				BB001800000000000000BB00 /* matchup_m_bison.json in Resources */,
+				CC001100000000000000CC00 /* MoveImages in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB43BCC2375DC7E51FBF1D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9A3EE3D3A1CFE0024AA594 /* AppColors.swift in Sources */,
+				AA000001000000000000AA01 /* CharacterSelectView.swift in Sources */,
+				A14F59CB3DBA8BEA690E2B52 /* CollapsibleSection.swift in Sources */,
+				4926F7A39856E8723C4A21EF /* ContentView.swift in Sources */,
+				67191335576258F0D21766EC /* MatchupModels.swift in Sources */,
+				08E62DC3FBCD7268B0F5E3E5 /* MatchupViewModel.swift in Sources */,
+				20A628855E0DEDF22A12D9A7 /* MeatySetupCard.swift in Sources */,
+				73E501F7D65BD22EC6FF3B7B /* MeatySetupsView.swift in Sources */,
+				20317A97CE508C9E0B762335 /* PunishCard.swift in Sources */,
+				CFD4EC202B5B02C7E01F1020 /* PunishGuideView.swift in Sources */,
+				7B81C3CF7CBD5DE55DFD90C5 /* SF6MatchupApp.swift in Sources */,
+				882075C2AABBB381EACEB0A8 /* WakeUpCard.swift in Sources */,
+				EFB3F16E2CC99731FEADC1E5 /* WakeUpKillersView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2359360D98DBF29A19B574EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sf6matchup.SF6Matchup;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A437FA0936B8198D15251B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sf6matchup.SF6Matchup;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED9AC4041421611F953736A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D7B71A495E032FDAA786E59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		360CFF086C9CE2500476A514 /* Build configuration list for PBXProject "SF6Matchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B71A495E032FDAA786E59A /* Debug */,
+				CED9AC4041421611F953736A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		40C13797310BEBBF569A6082 /* Build configuration list for PBXNativeTarget "SF6Matchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A437FA0936B8198D15251B84 /* Debug */,
+				2359360D98DBF29A19B574EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31F9614C976DCFC0BE5AC22F /* Project object */;
+}

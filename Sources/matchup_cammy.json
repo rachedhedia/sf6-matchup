@@ -1,0 +1,248 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Cammy",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "cammy_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Cammy_5hp.png"
+    },
+    {
+      "id": "cammy_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Cammy_2hk.png"
+    },
+    {
+      "id": "cammy_spiral_arrow_l",
+      "moveName": "Spiral Arrow (L)",
+      "category": "special",
+      "onBlock": -26,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Cammy_236lk.png"
+    },
+    {
+      "id": "cammy_spiral_arrow_m",
+      "moveName": "Spiral Arrow (M)",
+      "category": "special",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Cammy_236lk.png"
+    },
+    {
+      "id": "cammy_spiral_arrow_od",
+      "moveName": "Spiral Arrow (OD)",
+      "category": "special",
+      "onBlock": -22,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Cammy_236kk.png"
+    },
+    {
+      "id": "cammy_cannon_spike_l",
+      "moveName": "Cannon Spike (L)",
+      "category": "special",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Cammy_623lk.png"
+    },
+    {
+      "id": "cammy_cannon_spike_m",
+      "moveName": "Cannon Spike (M)",
+      "category": "special",
+      "onBlock": -24,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Cammy_623lk.png"
+    },
+    {
+      "id": "cammy_cannon_spike_h",
+      "moveName": "Cannon Spike (H)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Cammy_623lk.png"
+    },
+    {
+      "id": "cammy_cannon_spike_od",
+      "moveName": "Cannon Spike (OD)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — her primary reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Cammy_623kk.png"
+    },
+    {
+      "id": "cammy_sa1",
+      "moveName": "Spin Drive Smasher (SA1)",
+      "category": "super",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Cammy_236236p.png"
+    },
+    {
+      "id": "cammy_sa3",
+      "moveName": "CQC (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Cammy_214214p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA1 Spin Drive Smasher",
+        "SA3 CQC",
+        "OD Cannon Spike",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Cammy is a DP character. Safe jump is essential vs her meter."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "back rise attempt"
+      ],
+      "loses": [
+        "SA1 Spin Drive Smasher",
+        "SA3 CQC",
+        "OD Cannon Spike"
+      ],
+      "trades": [],
+      "notes": "Risky vs Cammy — she has multiple invincible options."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "shimmy bait"
+      ],
+      "loses": [
+        "SA1 Spin Drive Smasher",
+        "SA3 CQC",
+        "OD Cannon Spike"
+      ],
+      "trades": [],
+      "notes": "Standard pressure but be wary of meter."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw"
+      ],
+      "loses": [
+        "SA1 Spin Drive Smasher",
+        "SA3 CQC",
+        "OD Cannon Spike"
+      ],
+      "trades": [],
+      "notes": "Minimal oki — Cammy has strong reversal options."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA1 Spin Drive Smasher",
+        "SA3 CQC",
+        "OD Cannon Spike",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": "cr.MP > DR cr.MP xx Jackknife HK",
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Cammy has many invincible options. Safe jump is the go-to off any Jackknife HK."
+    },
+    {
+      "id": "meaty_jab_general",
+      "title": "Meaty 5LP (Low-risk Pressure)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA1 Spin Drive Smasher",
+        "SA3 CQC",
+        "OD Cannon Spike"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "Safe jump is preferred. Use meaty LP only when confident she has no meter."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Spin Drive Smasher",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -20,
+      "warning": "Strike invincible — delayed throw can beat it, safe jump is safest"
+    },
+    {
+      "name": "SA3 — CQC",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Fully invincible — safe jump required"
+    },
+    {
+      "name": "OD Cannon Spike",
+      "invincibility": "Fully invincible f1–8",
+      "onBlock": -25,
+      "warning": "Her meterless reversal — fully invincible, big punish on block"
+    }
+  ]
+}

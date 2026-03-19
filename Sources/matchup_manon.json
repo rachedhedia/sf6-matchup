@@ -1,0 +1,198 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Manon",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "manon_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Manon_5hp.png"
+    },
+    {
+      "id": "manon_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Manon_2hk.png"
+    },
+    {
+      "id": "manon_rond_pointe_h",
+      "moveName": "Rond-pointe (H)",
+      "category": "special",
+      "onBlock": -14,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Manon_214hk.png"
+    },
+    {
+      "id": "manon_rond_pointe_od",
+      "moveName": "Rond-pointe (OD)",
+      "category": "special",
+      "onBlock": -18,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Manon_214kk.png"
+    },
+    {
+      "id": "manon_renverse_h",
+      "moveName": "Renversé (H)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Manon_214mk.png"
+    },
+    {
+      "id": "manon_sa3",
+      "moveName": "Diamant Brillant (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Manon_214214k.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Diamant Brillant",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Manon has limited reversal tools. Safe jump is very reliable."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Grâce",
+        "SA2 Pas de Deux"
+      ],
+      "loses": [
+        "SA3 Diamant Brillant"
+      ],
+      "trades": [],
+      "notes": "Without SA3, Manon has no true reversal. Meaty pressure is strong."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Diamant Brillant"
+      ],
+      "trades": [],
+      "notes": "Note: beware of Manon’s command grab (Manège Dorée) on wakeup — delays are risky."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Diamant Brillant"
+      ],
+      "trades": [],
+      "notes": "Manon’s command grab on wakeup can snag delayed approaches — meaty normal is safer."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (SA3 Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Diamant Brillant",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Manon’s only true reversal is SA3. Without it, meaty normals dominate."
+    },
+    {
+      "id": "meaty_mk_general",
+      "title": "Meaty cr.MK (Strong Default)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "SA1 Grâce",
+        "SA2 Pas de Deux",
+        "wake jab",
+        "wake throw"
+      ],
+      "loses": [
+        "SA3 Diamant Brillant"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "Without SA3, meaty cr.MK is very safe. Respect SA3 meter."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Grâce",
+      "invincibility": "No true invincibility",
+      "onBlock": -15,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA2 — Pas de Deux",
+      "invincibility": "No true invincibility",
+      "onBlock": -25,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA3 — Diamant Brillant",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Her only true reversal — safe jump required"
+    },
+    {
+      "name": "Manège Dorée (Command Grab)",
+      "invincibility": "No invincibility",
+      "onBlock": null,
+      "warning": "Command grab on wakeup can catch delayed approaches — meaty immediately to avoid"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Guile",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "guile_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Guile_5HP.png"
+    },
+    {
+      "id": "guile_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Guile_2HK.png"
+    },
+    {
+      "id": "guile_flash_kick_l",
+      "moveName": "Somersault Kick (L)",
+      "category": "special",
+      "onBlock": -22,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Guile_28lk.png"
+    },
+    {
+      "id": "guile_flash_kick_m",
+      "moveName": "Somersault Kick (M)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Guile_28lk.png"
+    },
+    {
+      "id": "guile_flash_kick_h",
+      "moveName": "Somersault Kick (H)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Guile_28lk.png"
+    },
+    {
+      "id": "guile_flash_kick_od",
+      "moveName": "Somersault Kick (OD)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — his primary reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Guile_28kk.png"
+    },
+    {
+      "id": "guile_sa1",
+      "moveName": "Sonic Hurricane (SA1)",
+      "category": "super",
+      "onBlock": -10,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Projectile invincible only — beaten by meaty normals.",
+      "imageURL": "SF6_Guile_4646p.png"
+    },
+    {
+      "id": "guile_sa2",
+      "moveName": "Solid Puncher (SA2)",
+      "category": "super",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — safe jump recommended. Extend w/ OD/super.",
+      "imageURL": "SF6_Guile_4646k.png"
+    },
+    {
+      "id": "guile_sa3",
+      "moveName": "Crossfire Blitz (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Guile_214214p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA2 Solid Puncher",
+        "SA3 Crossfire Blitz",
+        "OD Somersault Kick",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Guile is a Flash Kick character. Safe jump is reliable off Jackknife HK."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Sonic Hurricane"
+      ],
+      "loses": [
+        "SA2 Solid Puncher",
+        "SA3 Crossfire Blitz",
+        "OD Somersault Kick"
+      ],
+      "trades": [],
+      "notes": "SA1 loses to meaty. Risky if he has SA2/SA3 meter."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "shimmy bait"
+      ],
+      "loses": [
+        "SA2 Solid Puncher",
+        "SA3 Crossfire Blitz",
+        "OD Somersault Kick"
+      ],
+      "trades": [],
+      "notes": "Standard pressure. Guile has strong reversal options."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1"
+      ],
+      "loses": [
+        "SA2 Solid Puncher",
+        "SA3 Crossfire Blitz",
+        "OD Somersault Kick"
+      ],
+      "trades": [],
+      "notes": "Minimal oki — respect the Flash Kick."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA2 Solid Puncher",
+        "SA3 Crossfire Blitz",
+        "OD Somersault Kick",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Guile has multiple invincible reversal options. Safe jump is the standard answer."
+    },
+    {
+      "id": "meaty_jab_sa1_killer",
+      "title": "Meaty 5LP (SA1 Killer)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA1 Sonic Hurricane (projectile inv only)",
+        "wake throw"
+      ],
+      "loses": [
+        "SA2 Solid Puncher",
+        "SA3 Crossfire Blitz",
+        "OD Somersault Kick"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": "cr.MP > DR cr.MP xx Jackknife HK",
+      "punishAfterBlockedSA3": null,
+      "notes": "SA1 has no strike invincibility. Meaty wins cleanly vs SA1."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Sonic Hurricane",
+      "invincibility": "Projectile invincible only",
+      "onBlock": -10,
+      "warning": "No strike invincibility — meaty normals beat it"
+    },
+    {
+      "name": "SA2 — Solid Puncher",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -28,
+      "warning": "Strike invincible only — delayed throw can beat it"
+    },
+    {
+      "name": "SA3 — Crossfire Blitz",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Fully invincible — safe jump required"
+    },
+    {
+      "name": "OD Somersault Kick",
+      "invincibility": "Fully invincible f1–8",
+      "onBlock": -28,
+      "warning": "Fully invincible Flash Kick — safe jump required"
+    }
+  ]
+}

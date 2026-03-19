@@ -1,0 +1,255 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Ken",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "ken_5hk",
+      "moveName": "Standing HK",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ken_5hk.png"
+    },
+    {
+      "id": "ken_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ken_2hk.png"
+    },
+    {
+      "id": "ken_6hk",
+      "moveName": "Axe Kick (6HK)",
+      "category": "uniqueAttack",
+      "onBlock": -6,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ken_236k_6hk.png"
+    },
+    {
+      "id": "ken_shoryuken_l",
+      "moveName": "Shoryuken (L)",
+      "category": "special",
+      "onBlock": -23,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Ken_623lp.png"
+    },
+    {
+      "id": "ken_shoryuken_m",
+      "moveName": "Shoryuken (M)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Ken_623lp.png"
+    },
+    {
+      "id": "ken_shoryuken_h",
+      "moveName": "Shoryuken (H)",
+      "category": "special",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Ken_623lp.png"
+    },
+    {
+      "id": "ken_shoryuken_od",
+      "moveName": "Shoryuken (OD)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — his main reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Ken_623pp.png"
+    },
+    {
+      "id": "ken_dragonlash_h",
+      "moveName": "Dragonlash Flame (H)",
+      "category": "special",
+      "onBlock": -14,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Only H version is this negative. L/M are safer.",
+      "imageURL": "SF6_Ken_236k_6hk.png"
+    },
+    {
+      "id": "ken_sa1",
+      "moveName": "Jinrai Kick (SA1)",
+      "category": "super",
+      "onBlock": -6,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP xx Jackknife HK",
+      "notes": "No full invincibility — tight punish window but doable.",
+      "imageURL": "SF6_Ken_236236p.png"
+    },
+    {
+      "id": "ken_sa2",
+      "moveName": "Shippu Jinraikyaku (SA2)",
+      "category": "super",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — use safe jump. Extend w/ OD/super.",
+      "imageURL": "SF6_Ken_236236k.png"
+    },
+    {
+      "id": "ken_sa3",
+      "moveName": "Shinryuken (SA3)",
+      "category": "super",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — use safe jump. Extend w/ OD/super.",
+      "imageURL": "SF6_Ken_214214k.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA2 Shippu Jinraikyaku",
+        "SA3 Shinryuken",
+        "OD Shoryuken",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Universal. SA2 is only strike invincible so you land safe and block it."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Jinrai Kick"
+      ],
+      "loses": [
+        "SA2 Shippu Jinraikyaku",
+        "SA3 Shinryuken",
+        "OD Shoryuken"
+      ],
+      "trades": [],
+      "notes": "SA1 has no full invincibility so meaty beats it."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "shimmy bait"
+      ],
+      "loses": [
+        "SA2 Shippu Jinraikyaku",
+        "SA3 Shinryuken",
+        "OD Shoryuken"
+      ],
+      "trades": [],
+      "notes": "Classic pressure. Risky vs meter."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw"
+      ],
+      "loses": [
+        "SA2 Shippu Jinraikyaku",
+        "SA3 Shinryuken",
+        "OD Shoryuken"
+      ],
+      "trades": [],
+      "notes": "Minimal oki. Keep it safe."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA2 Shippu Jinraikyaku",
+        "SA3 Shinryuken",
+        "OD Shoryuken",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Ken is a DP character — respect his reversal options. Safe jump is the answer."
+    },
+    {
+      "id": "meaty_jab_sa1_killer",
+      "title": "Meaty 5LP (SA1 Killer)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA1 Jinrai Kick (no full invincibility)",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA2 Shippu Jinraikyaku",
+        "SA3 Shinryuken",
+        "OD Shoryuken"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": "cr.MP xx Jackknife HK",
+      "punishAfterBlockedSA3": null,
+      "notes": "SA1 can be hit by meaty normals. Risky if they have SA2/SA3 meter."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Jinrai Kick",
+      "invincibility": "No full invincibility",
+      "onBlock": -6,
+      "warning": "Loses to meaty normals — but blockstring gaps can let it out"
+    },
+    {
+      "name": "SA2 — Shippu Jinraikyaku",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -28,
+      "warning": "Strike invincible only — delayed throw can beat it"
+    },
+    {
+      "name": "SA3 — Shinryuken",
+      "invincibility": "Fully invincible f1–10",
+      "onBlock": -30,
+      "warning": "Fully invincible — safe jump required"
+    },
+    {
+      "name": "OD Shoryuken",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -28,
+      "warning": "His main meterless reversal — strike invincible only"
+    }
+  ]
+}

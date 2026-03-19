@@ -1,0 +1,217 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Dee Jay",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "deejay_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Dee_Jay_5hp.png"
+    },
+    {
+      "id": "deejay_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Dee_Jay_2hk.png"
+    },
+    {
+      "id": "deejay_jackknife_l",
+      "moveName": "Jackknife Maximum (L)",
+      "category": "special",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "His DP — very punishable. Extend w/ OD/super.",
+      "imageURL": "SF6_Dee_Jay_214lk.png"
+    },
+    {
+      "id": "deejay_jackknife_m",
+      "moveName": "Jackknife Maximum (M)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Dee_Jay_214lk.png"
+    },
+    {
+      "id": "deejay_jackknife_h",
+      "moveName": "Jackknife Maximum (H)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Dee_Jay_214lk.png"
+    },
+    {
+      "id": "deejay_jackknife_od",
+      "moveName": "Jackknife Maximum (OD)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — his primary reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Dee_Jay_214kk.png"
+    },
+    {
+      "id": "deejay_mach_slide",
+      "moveName": "Mach Slide (H)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Dee_Jay_236mk.png"
+    },
+    {
+      "id": "deejay_sa3",
+      "moveName": "Timing Revolution (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Dee_Jay_236236k.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Timing Revolution",
+        "OD Jackknife",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Mirror matchup — same tools. Safe jump beats his OD Jackknife."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Timing Revolution",
+        "OD Jackknife"
+      ],
+      "trades": [],
+      "notes": "He has the same reversal tools — play cautiously vs his meter."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Timing Revolution",
+        "OD Jackknife"
+      ],
+      "trades": [],
+      "notes": "Standard mirror pressure."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1"
+      ],
+      "loses": [
+        "SA3 Timing Revolution",
+        "OD Jackknife"
+      ],
+      "trades": [],
+      "notes": "Minimal oki."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Timing Revolution",
+        "OD Jackknife",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Mirror matchup — you both have the same reversal. Safe jump is essential."
+    },
+    {
+      "id": "meaty_jab_sa1_killer",
+      "title": "Meaty 5LP (SA1/SA2 Killer)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA1 Sobat Carnival",
+        "SA2",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA3 Timing Revolution",
+        "OD Jackknife"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "SA1/SA2 lack invincibility. Meaty dominates without his key meter."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Sobat Carnival",
+      "invincibility": "No true invincibility",
+      "onBlock": -15,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA3 — Timing Revolution",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Fully invincible — safe jump required"
+    },
+    {
+      "name": "OD Jackknife Maximum",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -28,
+      "warning": "His DP reversal — strike invincible"
+    }
+  ]
+}

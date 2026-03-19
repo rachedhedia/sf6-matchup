@@ -1,0 +1,215 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Ed",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "ed_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ed_5hp.png"
+    },
+    {
+      "id": "ed_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ed_2hk.png"
+    },
+    {
+      "id": "ed_psycho_upper_l",
+      "moveName": "Psycho Upper (L)",
+      "category": "special",
+      "onBlock": -22,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Ed_623lp.png"
+    },
+    {
+      "id": "ed_psycho_upper_m",
+      "moveName": "Psycho Upper (M)",
+      "category": "special",
+      "onBlock": -26,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Ed_623mp.png"
+    },
+    {
+      "id": "ed_psycho_upper_h",
+      "moveName": "Psycho Upper (H)",
+      "category": "special",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Ed_623hp.png"
+    },
+    {
+      "id": "ed_psycho_upper_od",
+      "moveName": "Psycho Upper (OD)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "His DP — strike invincible. Primary reversal option.",
+      "imageURL": "SF6_Ed_623pp.png"
+    },
+    {
+      "id": "ed_psycho_blitz_h",
+      "moveName": "Psycho Blitz (H)",
+      "category": "special",
+      "onBlock": -14,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ed_236hk.png"
+    },
+    {
+      "id": "ed_sa3",
+      "moveName": "Psycho Storm (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Ed_214214p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Psycho Storm",
+        "OD Psycho Upper",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Ed is a DP character. Safe jump is reliable off Jackknife HK."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Psycho Storm",
+        "OD Psycho Upper"
+      ],
+      "trades": [],
+      "notes": "Risky if he has SA3 or drive gauge."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "shimmy bait"
+      ],
+      "loses": [
+        "SA3 Psycho Storm",
+        "OD Psycho Upper"
+      ],
+      "trades": [],
+      "notes": "Good pressure vs Ed if he lacks meter."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw"
+      ],
+      "loses": [
+        "SA3 Psycho Storm",
+        "OD Psycho Upper"
+      ],
+      "trades": [],
+      "notes": "Minimal oki — keep it safe vs his DP."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Psycho Storm",
+        "OD Psycho Upper",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Ed’s DP (Psycho Upper) and SA3 are his key reversal tools. Safe jump handles both."
+    },
+    {
+      "id": "meaty_jab_sa1_killer",
+      "title": "Meaty 5LP (SA1/SA2 Killer)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA1 Psycho Bolt",
+        "SA2",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA3 Psycho Storm",
+        "OD Psycho Upper"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "SA1/SA2 lack full invincibility. Meaty beats them."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA3 — Psycho Storm",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "His main reversal — safe jump required"
+    },
+    {
+      "name": "OD Psycho Upper",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -28,
+      "warning": "His DP reversal — strike invincible only"
+    },
+    {
+      "name": "SA1 — Psycho Bolt Super",
+      "invincibility": "No full invincibility",
+      "onBlock": -12,
+      "warning": "Loses to meaty normals"
+    }
+  ]
+}

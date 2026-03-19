@@ -1,0 +1,203 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Jamie",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "jamie_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Jamie_5hp.png"
+    },
+    {
+      "id": "jamie_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Jamie_2hk.png"
+    },
+    {
+      "id": "jamie_swing_step_h",
+      "moveName": "Swagger Step (H follow-up)",
+      "category": "uniqueAttack",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Drink level affects some frame data.",
+      "imageURL": "SF6_Jamie_236lp.png"
+    },
+    {
+      "id": "jamie_breakin_l",
+      "moveName": "Break'n (L)",
+      "category": "special",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "DP equivalent at higher drink levels. Extend w/ OD/super.",
+      "imageURL": "SF6_Jamie_623lk.png"
+    },
+    {
+      "id": "jamie_breakin_m",
+      "moveName": "Break'n (M)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Jamie_623lk.png"
+    },
+    {
+      "id": "jamie_breakin_od",
+      "moveName": "Break'n (OD)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible at higher drink levels. Extend w/ OD/super.",
+      "imageURL": "SF6_Jamie_623kk.png"
+    },
+    {
+      "id": "jamie_sa3",
+      "moveName": "Freeflow Rumble (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Jamie_214214p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Freeflow Rumble",
+        "OD Break'n",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Jamie’s reversal options grow with drink level. Safe jump is reliable."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Freeflow Strikes"
+      ],
+      "loses": [
+        "SA3 Freeflow Rumble",
+        "OD Break'n (at high drink level)"
+      ],
+      "trades": [],
+      "notes": "Jamie at drink level 0/1 has weaker reversals. Monitor his drink level."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA1 Freeflow Strikes"
+      ],
+      "loses": [
+        "SA3 Freeflow Rumble",
+        "OD Break'n"
+      ],
+      "trades": [],
+      "notes": "Good pressure. Respect his drink level."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1"
+      ],
+      "loses": [
+        "SA3 Freeflow Rumble",
+        "OD Break'n"
+      ],
+      "trades": [],
+      "notes": "Minimal oki."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Freeflow Rumble",
+        "OD Break'n",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Jamie’s reversal options increase with drink level. Safe jump is always reliable."
+    },
+    {
+      "id": "meaty_mk_low_drink",
+      "title": "Meaty cr.MK (Low Drink Level)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "SA1 Freeflow Strikes",
+        "wake jab",
+        "wake throw"
+      ],
+      "loses": [
+        "SA3 Freeflow Rumble"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "At drink level 0-1, Jamie’s Break’n DP has weaker invincibility. Meaty is more reliable then."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Freeflow Strikes",
+      "invincibility": "No true invincibility",
+      "onBlock": -15,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA3 — Freeflow Rumble",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Fully invincible — safe jump required"
+    },
+    {
+      "name": "OD Break'n (high drink level)",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -25,
+      "warning": "Gains strike invincibility at higher drink levels — monitor his meter"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Elena",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "elena_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Elena_5hp.png"
+    },
+    {
+      "id": "elena_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Elena_2hk.png"
+    },
+    {
+      "id": "elena_mallet_smash",
+      "moveName": "Mallet Smash (H)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Elena_236p.png"
+    },
+    {
+      "id": "elena_rhino_horn_l",
+      "moveName": "Rhino Horn (L)",
+      "category": "special",
+      "onBlock": -20,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "DP-style move. Extend w/ OD/super.",
+      "imageURL": "SF6_Elena_623k.png"
+    },
+    {
+      "id": "elena_rhino_horn_m",
+      "moveName": "Rhino Horn (M)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Elena_623k.png"
+    },
+    {
+      "id": "elena_rhino_horn_od",
+      "moveName": "Rhino Horn (OD)",
+      "category": "special",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — her primary reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Elena_623k.png"
+    },
+    {
+      "id": "elena_sa3",
+      "moveName": "Brave Dance (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Elena_214214k.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Brave Dance",
+        "OD Rhino Horn",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Elena is a DP character. Safe jump is the safest option."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Brave Dance",
+        "OD Rhino Horn"
+      ],
+      "trades": [],
+      "notes": "Risky vs her meter. Safe jump preferred."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Brave Dance",
+        "OD Rhino Horn"
+      ],
+      "trades": [],
+      "notes": "Standard pressure."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1"
+      ],
+      "loses": [
+        "SA3 Brave Dance",
+        "OD Rhino Horn"
+      ],
+      "trades": [],
+      "notes": "Minimal oki."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Brave Dance",
+        "OD Rhino Horn",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Elena’s reversal tools are Rhino Horn and SA3. Safe jump handles both."
+    },
+    {
+      "id": "meaty_jab_sa1_killer",
+      "title": "Meaty 5LP (SA1/SA2 Killer)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA1",
+        "SA2",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA3 Brave Dance",
+        "OD Rhino Horn"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "SA1/SA2 lack invincibility. Meaty wins without her key meter."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Healing",
+      "invincibility": "No true invincibility",
+      "onBlock": -10,
+      "warning": "Recovery super — not typically used as reversal"
+    },
+    {
+      "name": "SA3 — Brave Dance",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Fully invincible — safe jump required"
+    },
+    {
+      "name": "OD Rhino Horn",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -25,
+      "warning": "Her DP reversal — strike invincible"
+    }
+  ]
+}

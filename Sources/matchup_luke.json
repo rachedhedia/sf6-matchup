@@ -1,0 +1,221 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Luke",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "luke_5hk",
+      "moveName": "Standing HK",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Luke_5hk.png"
+    },
+    {
+      "id": "luke_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -11,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Luke_2hk.png"
+    },
+    {
+      "id": "luke_6hp",
+      "moveName": "Gut Punch (6HP)",
+      "category": "uniqueAttack",
+      "onBlock": -8,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Luke_6hp.png"
+    },
+    {
+      "id": "luke_flash_knuckle_l",
+      "moveName": "Flash Knuckle (L)",
+      "category": "special",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Luke_214lp.png"
+    },
+    {
+      "id": "luke_flash_knuckle_m",
+      "moveName": "Flash Knuckle (M)",
+      "category": "special",
+      "onBlock": -6,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Luke_214lp.png"
+    },
+    {
+      "id": "luke_flash_knuckle_od",
+      "moveName": "Flash Knuckle (OD)",
+      "category": "special",
+      "onBlock": -14,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Luke_214pp.png"
+    },
+    {
+      "id": "luke_sa1",
+      "moveName": "Sand Blaster (SA1)",
+      "category": "super",
+      "onBlock": -8,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP xx Jackknife HK",
+      "notes": "No full invincibility — beaten by meaty normals.",
+      "imageURL": "SF6_Luke_236236p.png"
+    },
+    {
+      "id": "luke_sa2",
+      "moveName": "Supplex (SA2)",
+      "category": "super",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Luke_236236k.png"
+    },
+    {
+      "id": "luke_sa3",
+      "moveName": "Maximum Bullet (SA3)",
+      "category": "super",
+      "onBlock": -25,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — use safe jump. Extend w/ OD/super.",
+      "imageURL": "SF6_Luke_214214p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Maximum Bullet",
+        "OD Flash Knuckle",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Luke has no DP — SA3 is his main reversal. Safe jump beats it."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Sand Blaster",
+        "SA2 Supplex"
+      ],
+      "loses": [
+        "SA3 Maximum Bullet (fully invincible)"
+      ],
+      "trades": [],
+      "notes": "Luke's SA1/SA2 lack full invincibility. Only SA3 beats this."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "shimmy bait"
+      ],
+      "loses": [
+        "SA3 Maximum Bullet"
+      ],
+      "trades": [],
+      "notes": "Luke has limited reversal options without SA3 meter."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1 Sand Blaster"
+      ],
+      "loses": [
+        "SA3 Maximum Bullet"
+      ],
+      "trades": [],
+      "notes": "Solid oki vs Luke if he's without SA3."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (SA3 Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Maximum Bullet",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Luke has no DP. SA3 is his only real reversal. Safe jump makes oki very safe."
+    },
+    {
+      "id": "meaty_mk_general",
+      "title": "Meaty cr.MK (General Pressure)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "SA1 Sand Blaster",
+        "SA2 Supplex",
+        "wake jab",
+        "wake throw"
+      ],
+      "loses": [
+        "SA3 Maximum Bullet"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": "cr.MP xx Jackknife HK",
+      "punishAfterBlockedSA3": null,
+      "notes": "Without SA3 meter, Luke’s oki options are limited. Meaty cr.MK is a solid default."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Sand Blaster",
+      "invincibility": "No full invincibility",
+      "onBlock": -8,
+      "warning": "Loses to meaty normals — good to block and punish"
+    },
+    {
+      "name": "SA2 — Supplex",
+      "invincibility": "No full invincibility",
+      "onBlock": -25,
+      "warning": "No invincibility — meaty normals beat it cleanly"
+    },
+    {
+      "name": "SA3 — Maximum Bullet",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -25,
+      "warning": "His only reversal super — use safe jump"
+    }
+  ]
+}

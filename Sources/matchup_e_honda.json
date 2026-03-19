@@ -1,0 +1,218 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "E. Honda",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "ehonda_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -5,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ehonda_5hp.png"
+    },
+    {
+      "id": "ehonda_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ehonda_2hk.png"
+    },
+    {
+      "id": "ehonda_headbutt_l",
+      "moveName": "Sumo Headbutt (L)",
+      "category": "special",
+      "onBlock": -22,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "His DP equivalent — very punishable. Extend w/ OD/super.",
+      "imageURL": "SF6_Ehonda_214lp.png"
+    },
+    {
+      "id": "ehonda_headbutt_m",
+      "moveName": "Sumo Headbutt (M)",
+      "category": "special",
+      "onBlock": -26,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Ehonda_214p.png"
+    },
+    {
+      "id": "ehonda_headbutt_h",
+      "moveName": "Sumo Headbutt (H)",
+      "category": "special",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Ehonda_214p.png"
+    },
+    {
+      "id": "ehonda_headbutt_od",
+      "moveName": "Sumo Headbutt (OD)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible — his primary reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Ehonda_214pp.png"
+    },
+    {
+      "id": "ehonda_hhs_l",
+      "moveName": "Hundred Hand Slap (L)",
+      "category": "special",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ehonda_236k.png"
+    },
+    {
+      "id": "ehonda_sa3",
+      "moveName": "Ippon Zeoi (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — safe jump required. Extend w/ OD/super.",
+      "imageURL": "SF6_Ehonda_214214p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA3 Ippon Zeoi",
+        "OD Headbutt",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Honda’s OD Headbutt is his key reversal. Safe jump beats it."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Ippon Zeoi",
+        "OD Headbutt (strike inv)"
+      ],
+      "trades": [],
+      "notes": "OD Headbutt beats meaty normals. Use safe jump vs meter."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Ippon Zeoi",
+        "OD Headbutt"
+      ],
+      "trades": [],
+      "notes": "Standard pressure."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw",
+        "SA1",
+        "SA2"
+      ],
+      "loses": [
+        "SA3 Ippon Zeoi",
+        "OD Headbutt"
+      ],
+      "trades": [],
+      "notes": "Minimal oki."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA3 Ippon Zeoi",
+        "OD Headbutt",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Honda’s main reversal is OD Headbutt and SA3. Safe jump beats both."
+    },
+    {
+      "id": "meaty_jab_sa1_killer",
+      "title": "Meaty 5LP (SA1/SA2 Killer)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA1 Orochi Breaker",
+        "SA2",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA3 Ippon Zeoi",
+        "OD Headbutt"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": null,
+      "notes": "Without OD/SA3, Honda’s wakeup options are limited."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Orochi Breaker",
+      "invincibility": "No true invincibility",
+      "onBlock": -20,
+      "warning": "Loses to meaty normals"
+    },
+    {
+      "name": "SA3 — Ippon Zeoi",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Fully invincible — safe jump required"
+    },
+    {
+      "name": "OD Sumo Headbutt",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -28,
+      "warning": "His meterless reversal option — strike invincible"
+    }
+  ]
+}

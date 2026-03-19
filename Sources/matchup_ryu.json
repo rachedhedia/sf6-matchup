@@ -1,0 +1,245 @@
+{
+  "matchup": {
+    "attacker": "Deejay",
+    "defender": "Ryu",
+    "patch": "2024-12",
+    "source": "wiki.supercombo.gg + ultimateframedata.com"
+  },
+  "punishes": [
+    {
+      "id": "ryu_5hp",
+      "moveName": "Standing HP",
+      "category": "normal",
+      "onBlock": -4,
+      "punishWindow": "4f",
+      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ryu_5hp.png"
+    },
+    {
+      "id": "ryu_2hk",
+      "moveName": "Crouching HK (Sweep)",
+      "category": "normal",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ryu_2hk.png"
+    },
+    {
+      "id": "ryu_6hp",
+      "moveName": "Collarbone Breaker (6HP)",
+      "category": "uniqueAttack",
+      "onBlock": -9,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": null,
+      "imageURL": "SF6_Ryu_6hp.png"
+    },
+    {
+      "id": "ryu_shoryuken_l",
+      "moveName": "Shoryuken (L)",
+      "category": "special",
+      "onBlock": -23,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Ryu_623p.png"
+    },
+    {
+      "id": "ryu_shoryuken_m",
+      "moveName": "Shoryuken (M)",
+      "category": "special",
+      "onBlock": -28,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Ryu_623p.png"
+    },
+    {
+      "id": "ryu_shoryuken_h",
+      "moveName": "Shoryuken (H)",
+      "category": "special",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Extend w/ OD/super if available.",
+      "imageURL": "SF6_Ryu_623p.png"
+    },
+    {
+      "id": "ryu_shoryuken_od",
+      "moveName": "Shoryuken (OD)",
+      "category": "special",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Strike invincible on startup — his primary wakeup reversal. Extend w/ OD/super.",
+      "imageURL": "SF6_Ryu_623pp.png"
+    },
+    {
+      "id": "ryu_sa1",
+      "moveName": "Shinku Hadoken (SA1)",
+      "category": "super",
+      "onBlock": -12,
+      "punishWindow": "6f",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Projectile invincible only — loses to meaty normals.",
+      "imageURL": "SF6_Ryu_236236p.png"
+    },
+    {
+      "id": "ryu_sa2",
+      "moveName": "Shin Shoryuken (SA2)",
+      "category": "super",
+      "onBlock": -30,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — use safe jump. Extend w/ OD/super.",
+      "imageURL": null
+    },
+    {
+      "id": "ryu_sa3",
+      "moveName": "Shin Hashogeki (SA3)",
+      "category": "super",
+      "onBlock": -35,
+      "punishWindow": "massive",
+      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "notes": "Fully invincible — use safe jump. Extend w/ OD/super.",
+      "imageURL": "SF6_Ryu_214214p.png"
+    }
+  ],
+  "meatySetups": [
+    {
+      "id": "jackknife_hk_safe_jump",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA2 Shin Shoryuken",
+        "SA3 Shin Hashogeki",
+        "OD Shoryuken",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "notes": "Universal answer. Land before reversal, block, punish. SA1 loses to this too (no full invincibility)."
+    },
+    {
+      "id": "jackknife_hk_meaty_mk",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "SA1 Shinku Hadoken"
+      ],
+      "loses": [
+        "SA2 Shin Shoryuken (fully invincible)",
+        "SA3 Shin Hashogeki (fully invincible)",
+        "OD Shoryuken (strike invincible)"
+      ],
+      "trades": [],
+      "notes": "Risky vs reversal-happy Ryu. Use safe jump if they have super meter."
+    },
+    {
+      "id": "forward_throw_loop",
+      "afterMove": "MK Rolling Sobat / Forward Throw",
+      "kdAdvantage": 34,
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw",
+        "shimmy bait"
+      ],
+      "loses": [
+        "SA2 Shin Shoryuken",
+        "SA3 Shin Hashogeki",
+        "OD Shoryuken"
+      ],
+      "trades": [],
+      "notes": "OD Shoryuken is strike invincible but not throw invincible — delayed throw CAN beat it, but timing is strict."
+    },
+    {
+      "id": "back_throw_meaty_lp",
+      "afterMove": "Back Throw",
+      "kdAdvantage": 22,
+      "setup": "Walk-in meaty 5LP",
+      "beats": [
+        "wake throw"
+      ],
+      "loses": [
+        "SA2 Shin Shoryuken",
+        "SA3 Shin Hashogeki",
+        "OD Shoryuken"
+      ],
+      "trades": [],
+      "notes": "Minimal oki after back throw. Keep it simple."
+    }
+  ],
+  "wakeupSuperKillers": [
+    {
+      "id": "safe_jump_universal",
+      "title": "Safe Jump (Universal Reversal Killer)",
+      "afterMove": "Jackknife Maximum (HK)",
+      "kdAdvantage": 42,
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA2 Shin Shoryuken",
+        "SA3 Shin Hashogeki",
+        "OD Shoryuken",
+        "wake throw"
+      ],
+      "loses": [],
+      "trades": [],
+      "punishAfterBlockedSA1": null,
+      "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend w/ OD/super)",
+      "notes": "Ryu has two fully invincible supers (SA2 and SA3). Safe jump is the reliable answer to both."
+    },
+    {
+      "id": "meaty_jab_sa1_killer",
+      "title": "Meaty 5LP (SA1 Killer)",
+      "afterMove": "Any knockdown",
+      "kdAdvantage": null,
+      "setup": "Well-timed meaty 5LP",
+      "beats": [
+        "SA1 Shinku Hadoken (projectile inv only)",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA2 Shin Shoryuken",
+        "SA3 Shin Hashogeki",
+        "OD Shoryuken"
+      ],
+      "trades": [],
+      "punishAfterBlockedSA1": "cr.MP > DR cr.MP xx Jackknife HK",
+      "punishAfterBlockedSA3": null,
+      "notes": "SA1 has no full strike invincibility — meaty beats it. Risky if they have SA2/SA3 meter."
+    }
+  ],
+  "opponentReversals": [
+    {
+      "name": "SA1 — Shinku Hadoken",
+      "invincibility": "Projectile invincible only",
+      "onBlock": -12,
+      "warning": "No full strike invincibility — meaty normals beat it cleanly"
+    },
+    {
+      "name": "SA2 — Shin Shoryuken",
+      "invincibility": "Fully invincible f1–10",
+      "onBlock": -30,
+      "warning": "His main reversal super — requires safe jump or deliberate bait"
+    },
+    {
+      "name": "SA3 — Shin Hashogeki",
+      "invincibility": "Fully invincible f1–11",
+      "onBlock": -35,
+      "warning": "Expensive but huge damage on hit — safe jump beats it"
+    },
+    {
+      "name": "OD Shoryuken",
+      "invincibility": "Strike invincible f1–8",
+      "onBlock": -30,
+      "warning": "Strike invincible only — delayed throw can beat it, safe jump is safest"
+    }
+  ]
+}
