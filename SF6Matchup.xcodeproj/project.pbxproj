@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08E62DC3FBCD7268B0F5E3E5 /* MatchupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8531B6E56E20435E73D62C6B /* MatchupViewModel.swift */; };
+		20317A97CE508C9E0B762335 /* PunishCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022F6F94592056641A09AEF4 /* PunishCard.swift */; };
+		20A628855E0DEDF22A12D9A7 /* MeatySetupCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CD4FA9E897D38BC41021 /* MeatySetupCard.swift */; };
+		4926F7A39856E8723C4A21EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCFE9C62657CE57B167AC3 /* ContentView.swift */; };
+		67191335576258F0D21766EC /* MatchupModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073C46DCDA2446AC30FA44F /* MatchupModels.swift */; };
+		73E501F7D65BD22EC6FF3B7B /* MeatySetupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F840D2BC980D61AE096222 /* MeatySetupsView.swift */; };
+		7B81C3CF7CBD5DE55DFD90C5 /* SF6MatchupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19F8E267A4B85676A4AC10 /* SF6MatchupApp.swift */; };
+		7E39F78E9D4ADCFAEFA40EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1376B874895FD0F7C1C7E6 /* Assets.xcassets */; };
+		852A91B95257720B6EF5A2D7 /* matchup.json in Resources */ = {isa = PBXBuildFile; fileRef = 85037F5E34EE27733AFC0EDA /* matchup.json */; };
+		882075C2AABBB381EACEB0A8 /* WakeUpCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6648956820F3C0670CFF07 /* WakeUpCard.swift */; };
+		A14F59CB3DBA8BEA690E2B52 /* CollapsibleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AC48A67A24D7705C37B9C8 /* CollapsibleSection.swift */; };
 		AA000001000000000000AA01 /* CharacterSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000AA02 /* CharacterSelectView.swift */; };
 		AA000003000000000000AA03 /* roster.json in Resources */ = {isa = PBXBuildFile; fileRef = AA000004000000000000AA04 /* roster.json */; };
+		AD9A3EE3D3A1CFE0024AA594 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B85E72F5B8F4F04A699E678 /* AppColors.swift */; };
 		BB000100000000000000BB00 /* matchup_ryu.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000100000000000000BB01 /* matchup_ryu.json */; };
 		BB000200000000000000BB00 /* matchup_ken.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000200000000000000BB01 /* matchup_ken.json */; };
 		BB000300000000000000BB00 /* matchup_luke.json in Resources */ = {isa = PBXBuildFile; fileRef = BB000300000000000000BB01 /* matchup_luke.json */; };
@@ -33,26 +45,25 @@
 		BB001600000000000000BB00 /* matchup_mai.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001600000000000000BB01 /* matchup_mai.json */; };
 		BB001700000000000000BB00 /* matchup_elena.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001700000000000000BB01 /* matchup_elena.json */; };
 		BB001800000000000000BB00 /* matchup_m_bison.json in Resources */ = {isa = PBXBuildFile; fileRef = BB001800000000000000BB01 /* matchup_m_bison.json */; };
-		08E62DC3FBCD7268B0F5E3E5 /* MatchupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8531B6E56E20435E73D62C6B /* MatchupViewModel.swift */; };
-		20317A97CE508C9E0B762335 /* PunishCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022F6F94592056641A09AEF4 /* PunishCard.swift */; };
-		20A628855E0DEDF22A12D9A7 /* MeatySetupCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CD4FA9E897D38BC41021 /* MeatySetupCard.swift */; };
-		4926F7A39856E8723C4A21EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCFE9C62657CE57B167AC3 /* ContentView.swift */; };
-		67191335576258F0D21766EC /* MatchupModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073C46DCDA2446AC30FA44F /* MatchupModels.swift */; };
-		73E501F7D65BD22EC6FF3B7B /* MeatySetupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F840D2BC980D61AE096222 /* MeatySetupsView.swift */; };
-		7B81C3CF7CBD5DE55DFD90C5 /* SF6MatchupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19F8E267A4B85676A4AC10 /* SF6MatchupApp.swift */; };
-		7E39F78E9D4ADCFAEFA40EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1376B874895FD0F7C1C7E6 /* Assets.xcassets */; };
-		852A91B95257720B6EF5A2D7 /* matchup.json in Resources */ = {isa = PBXBuildFile; fileRef = 85037F5E34EE27733AFC0EDA /* matchup.json */; };
-		882075C2AABBB381EACEB0A8 /* WakeUpCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6648956820F3C0670CFF07 /* WakeUpCard.swift */; };
-		A14F59CB3DBA8BEA690E2B52 /* CollapsibleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AC48A67A24D7705C37B9C8 /* CollapsibleSection.swift */; };
-		AD9A3EE3D3A1CFE0024AA594 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B85E72F5B8F4F04A699E678 /* AppColors.swift */; };
+		CC001100000000000000CC00 /* MoveImages in Resources */ = {isa = PBXBuildFile; fileRef = CC001100000000000000CC01 /* MoveImages */; };
 		CFD4EC202B5B02C7E01F1020 /* PunishGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE75607CD23BACB93703A1 /* PunishGuideView.swift */; };
 		EFB3F16E2CC99731FEADC1E5 /* WakeUpKillersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8066F1AD0A9DDE450486441 /* WakeUpKillersView.swift */; };
-		CC001100000000000000CC00 = {isa = PBXBuildFile; fileRef = CC001100000000000000CC01; };
-		/* End PBXBuildFile section */
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		022F6F94592056641A09AEF4 /* PunishCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunishCard.swift; sourceTree = "<group>"; };
+		0B85E72F5B8F4F04A699E678 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		12E6CD4FA9E897D38BC41021 /* MeatySetupCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatySetupCard.swift; sourceTree = "<group>"; };
+		3ACCFE9C62657CE57B167AC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A19F8E267A4B85676A4AC10 /* SF6MatchupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF6MatchupApp.swift; sourceTree = "<group>"; };
+		71AC48A67A24D7705C37B9C8 /* CollapsibleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleSection.swift; sourceTree = "<group>"; };
+		85037F5E34EE27733AFC0EDA /* matchup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup.json; sourceTree = "<group>"; };
+		8531B6E56E20435E73D62C6B /* MatchupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchupViewModel.swift; sourceTree = "<group>"; };
+		96F840D2BC980D61AE096222 /* MeatySetupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatySetupsView.swift; sourceTree = "<group>"; };
 		AA000002000000000000AA02 /* CharacterSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectView.swift; sourceTree = "<group>"; };
 		AA000004000000000000AA04 /* roster.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roster.json; sourceTree = "<group>"; };
+		AE1376B874895FD0F7C1C7E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B073C46DCDA2446AC30FA44F /* MatchupModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchupModels.swift; sourceTree = "<group>"; };
 		BB000100000000000000BB01 /* matchup_ryu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_ryu.json; sourceTree = "<group>"; };
 		BB000200000000000000BB01 /* matchup_ken.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_ken.json; sourceTree = "<group>"; };
 		BB000300000000000000BB01 /* matchup_luke.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_luke.json; sourceTree = "<group>"; };
@@ -77,23 +88,12 @@
 		BB001600000000000000BB01 /* matchup_mai.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_mai.json; sourceTree = "<group>"; };
 		BB001700000000000000BB01 /* matchup_elena.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_elena.json; sourceTree = "<group>"; };
 		BB001800000000000000BB01 /* matchup_m_bison.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup_m_bison.json; sourceTree = "<group>"; };
-		022F6F94592056641A09AEF4 /* PunishCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunishCard.swift; sourceTree = "<group>"; };
-		0B85E72F5B8F4F04A699E678 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
-		12E6CD4FA9E897D38BC41021 /* MeatySetupCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatySetupCard.swift; sourceTree = "<group>"; };
-		3ACCFE9C62657CE57B167AC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5A19F8E267A4B85676A4AC10 /* SF6MatchupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF6MatchupApp.swift; sourceTree = "<group>"; };
-		71AC48A67A24D7705C37B9C8 /* CollapsibleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleSection.swift; sourceTree = "<group>"; };
-		85037F5E34EE27733AFC0EDA /* matchup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matchup.json; sourceTree = "<group>"; };
-		8531B6E56E20435E73D62C6B /* MatchupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchupViewModel.swift; sourceTree = "<group>"; };
-		96F840D2BC980D61AE096222 /* MeatySetupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatySetupsView.swift; sourceTree = "<group>"; };
-		AE1376B874895FD0F7C1C7E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B073C46DCDA2446AC30FA44F /* MatchupModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchupModels.swift; sourceTree = "<group>"; };
 		BE6648956820F3C0670CFF07 /* WakeUpCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpCard.swift; sourceTree = "<group>"; };
+		CC001100000000000000CC01 /* MoveImages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MoveImages; path = Sources/MoveImages; sourceTree = "<group>"; };
 		D8066F1AD0A9DDE450486441 /* WakeUpKillersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpKillersView.swift; sourceTree = "<group>"; };
-		E1EBE11F4A7B3E7C1FC44B54 /* SF6Matchup.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SF6Matchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1EBE11F4A7B3E7C1FC44B54 /* SF6Matchup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SF6Matchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEE75607CD23BACB93703A1 /* PunishGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunishGuideView.swift; sourceTree = "<group>"; };
-		CC001100000000000000CC01 = {isa = PBXFileReference; lastKnownFileType = folder; name = MoveImages; path = Sources/MoveImages; sourceTree = "<group>"; };
-		/* End PBXFileReference section */
+/* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		07A94B57787DEFC6E0513315 /* Views */ = {
@@ -106,6 +106,14 @@
 				E177091CE81780CD83C060F9 /* Components */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3F86256A2F6CA9860075E4CF /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				CC001100000000000000CC01 /* MoveImages */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		438F90AD1298EA6FC1D5680F /* Models */ = {
@@ -177,6 +185,7 @@
 			children = (
 				69C938A8419932544FF7827C /* Sources */,
 				C565164470C948A3FC79E35C /* Products */,
+				3F86256A2F6CA9860075E4CF /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -227,9 +236,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
+				LastUpgradeCheck = 2630;
 			};
 			buildConfigurationList = 360CFF086C9CE2500476A514 /* Build configuration list for PBXProject "SF6Matchup" */;
 			developmentRegion = en;
@@ -323,6 +330,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,6 +355,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -395,8 +404,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZT68XB6PG8;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -410,6 +421,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -451,8 +463,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZT68XB6PG8;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -473,6 +487,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
