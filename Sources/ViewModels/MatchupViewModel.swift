@@ -36,6 +36,7 @@ struct MeatySetupGroup: Identifiable {
 
 class MatchupViewModel: ObservableObject {
     @Published var data: MatchupData?
+    @Published var characterInfo: CharacterInfo?
     let character: RosterCharacter
 
     private static let categoryOrder = [
@@ -87,11 +88,16 @@ class MatchupViewModel: ObservableObject {
     private func load() {
         // kimberly uses the original "matchup" filename; others use "matchup_<id>"
         let fileName = character.id == "kimberly" ? "matchup" : "matchup_\(character.id)"
-        guard
-            let url = Bundle.main.url(forResource: fileName, withExtension: "json"),
-            let raw = try? Data(contentsOf: url),
-            let decoded = try? JSONDecoder().decode(MatchupData.self, from: raw)
-        else { return }
-        self.data = decoded
+        if let url = Bundle.main.url(forResource: fileName, withExtension: "json"),
+           let raw = try? Data(contentsOf: url),
+           let decoded = try? JSONDecoder().decode(MatchupData.self, from: raw) {
+            self.data = decoded
+        }
+
+        if let url = Bundle.main.url(forResource: "character_info", withExtension: "json"),
+           let raw = try? Data(contentsOf: url),
+           let all = try? JSONDecoder().decode([String: CharacterInfo].self, from: raw) {
+            self.characterInfo = all[character.id]
+        }
     }
 }

@@ -13,25 +13,32 @@ struct CollapsibleSection<Content: View>: View {
                     isExpanded.toggle()
                 }
             } label: {
-                HStack {
+                HStack(spacing: 10) {
+                    // Violet indicator bar
+                    RoundedRectangle(cornerRadius: 2)
+                        .fill(Color.sectionAccent)
+                        .frame(width: 3, height: 18)
+
                     Text(title)
-                        .font(.system(size: 12, weight: .bold))
-                        .tracking(1.8)
-                        .foregroundColor(.accent)
+                        .font(.system(size: 13, weight: .bold))
+                        .tracking(1.5)
+                        .foregroundColor(.primaryText)
                     Spacer()
-                    Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
-                        .foregroundColor(.accent)
+                    Image(systemName: "chevron.right")
+                        .foregroundColor(.sectionAccent)
                         .font(.system(size: 11, weight: .semibold))
+                        .rotationEffect(.degrees(isExpanded ? 90 : 0))
                 }
-                .padding(.horizontal, 16)
-                .padding(.vertical, 13)
+                .padding(.leading, 13)
+                .padding(.trailing, 16)
+                .padding(.vertical, 14)
                 .background(Color.sectionHeader)
                 .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
 
             Rectangle()
-                .fill(Color.cardBorder)
+                .fill(Color.sectionAccent.opacity(0.35))
                 .frame(height: 1)
 
             if isExpanded {

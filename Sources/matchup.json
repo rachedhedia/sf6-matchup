@@ -7,34 +7,364 @@
   },
   "punishes": [
     {
-      "id": "standing_hp",
-      "moveName": "Standing HP",
+      "id": "kimberly_standing_light_punch",
+      "moveName": "Standing Light Punch",
       "category": "normal",
-      "onBlock": -4,
-      "punishWindow": "4f",
-      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "onBlock": -2,
+      "startup": "5",
+      "active": "2",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
       "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/e/e0/SF6_Kimberly_5hp.png"
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-st-lp.gif",
+      "command": "5LP"
     },
     {
-      "id": "standing_mk",
-      "moveName": "Standing MK",
+      "id": "kimberly_standing_medium_punch",
+      "moveName": "Standing Medium Punch",
       "category": "normal",
-      "onBlock": -4,
-      "punishWindow": "4f",
-      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
+      "onBlock": -2,
+      "startup": "6",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
       "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/6/61/SF6_Kimberly_5mk.png"
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-st-mp.gif",
+      "command": "5MP"
     },
     {
-      "id": "crouching_hk",
-      "moveName": "Crouching HK (Sweep)",
+      "id": "kimberly_standing_heavy_punch",
+      "moveName": "Standing Heavy Punch",
+      "category": "normal",
+      "onBlock": -4,
+      "startup": "9",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-st-hp-dec2024.gif",
+      "command": "5HP"
+    },
+    {
+      "id": "kimberly_standing_light_kick",
+      "moveName": "Standing Light Kick",
+      "category": "normal",
+      "onBlock": -3,
+      "startup": "5",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-st-lk.gif",
+      "command": "5LK"
+    },
+    {
+      "id": "kimberly_standing_medium_kick",
+      "moveName": "Standing Medium Kick",
+      "category": "normal",
+      "onBlock": -4,
+      "startup": "8",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-st-mk.gif",
+      "command": "5MK"
+    },
+    {
+      "id": "kimberly_standing_heavy_kick",
+      "moveName": "Standing Heavy Kick",
+      "category": "normal",
+      "onBlock": 2,
+      "startup": "12",
+      "active": "4",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-st-hk-aa.gif",
+      "command": "5HK"
+    },
+    {
+      "id": "kimberly_crouching_light_punch",
+      "moveName": "Crouching Light Punch",
+      "category": "normal",
+      "onBlock": -1,
+      "startup": "4",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cr-lp.gif",
+      "command": "2LP"
+    },
+    {
+      "id": "kimberly_crouching_medium_punch",
+      "moveName": "Crouching Medium Punch",
+      "category": "normal",
+      "onBlock": -1,
+      "startup": "6",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cr-mp-june2025-1.2.gif",
+      "command": "2MP"
+    },
+    {
+      "id": "kimberly_crouching_heavy_punch",
+      "moveName": "Crouching Heavy Punch",
+      "category": "normal",
+      "onBlock": -2,
+      "startup": "8",
+      "active": "6",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cr-hp.gif",
+      "command": "2HP"
+    },
+    {
+      "id": "kimberly_crouching_light_kick",
+      "moveName": "Crouching Light Kick",
+      "category": "normal",
+      "onBlock": -2,
+      "startup": "5",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cr-lk.gif",
+      "command": "2LK"
+    },
+    {
+      "id": "kimberly_crouching_medium_kick",
+      "moveName": "Crouching Medium Kick",
+      "category": "normal",
+      "onBlock": 1,
+      "startup": "7",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cr-mk.gif",
+      "command": "2MK"
+    },
+    {
+      "id": "kimberly_crouching_heavy_kick",
+      "moveName": "Crouching Heavy Kick",
       "category": "normal",
       "onBlock": -10,
-      "punishWindow": "6f",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "startup": "8",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
       "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/d/db/SF6_Kimberly_2hk.png"
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cr-hk-june2025.gif",
+      "command": "2HK"
+    },
+    {
+      "id": "kimberly_down_forward_medium_kick_water_slicer_slide",
+      "moveName": "Down-Forward + Medium Kick (Water Slicer Slide)",
+      "category": "unique",
+      "onBlock": -5,
+      "startup": "11",
+      "active": "10",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-df+mk.gif"
+    },
+    {
+      "id": "kimberly_back_heavy_kick_windmill_kick",
+      "moveName": "Back + Heavy Kick (Windmill Kick)",
+      "category": "unique",
+      "onBlock": -3,
+      "startup": "22",
+      "active": "2",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-b+hk.gif"
+    },
+    {
+      "id": "kimberly_forward_heavy_kick_hisen_kick",
+      "moveName": "Forward + Heavy Kick (Hisen Kick)",
+      "category": "unique",
+      "onBlock": -3,
+      "startup": "27",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-f+hk-dec2024.gif"
+    },
+    {
+      "id": "kimberly_step_up_hisen_kick_up_up_forward_up_back",
+      "moveName": "Step Up (Hisen Kick > Up/Up-Forward/Up-Back)",
+      "category": "unique",
+      "onBlock": -15,
+      "startup": "19",
+      "active": null,
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-f+hk-u.gif"
+    },
+    {
+      "id": "kimberly_bushin_senpukyaku_light_kick",
+      "moveName": "Bushin Senpukyaku (Light Kick)",
+      "category": "special",
+      "onBlock": -30,
+      "startup": "6",
+      "active": "6, 6, 6, 3 (2, 7, 8)",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-tatsu-lk-may2024.gif",
+      "command": "214K"
+    },
+    {
+      "id": "kimberly_bushin_senpukyaku_medium_kick",
+      "moveName": "Bushin Senpukyaku (Medium Kick)",
+      "category": "special",
+      "onBlock": -32,
+      "startup": "7",
+      "active": "6, 6, 6, 3 (2, 7, 8)",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-tatsu-mk-may2024.gif",
+      "command": "214K"
+    },
+    {
+      "id": "kimberly_bushin_senpukyaku_heavy_kick",
+      "moveName": "Bushin Senpukyaku (Heavy Kick)",
+      "category": "special",
+      "onBlock": -35,
+      "startup": "8",
+      "active": "6, 6, 6, 3 (2, 7, 8)",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-tatsu-hk-may2024.gif",
+      "command": "214K"
+    },
+    {
+      "id": "kimberly_bushin_senpukyaku_overdrive",
+      "moveName": "Bushin Senpukyaku (Overdrive)",
+      "category": "special",
+      "onBlock": -35,
+      "startup": "6",
+      "active": "6, 6, 6, 6, 2 (6, 6, 6, 6, 8)",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-tatsu-od-may2024.gif",
+      "command": "214K"
+    },
+    {
+      "id": "kimberly_aerial_bushin_senpukyaku",
+      "moveName": "Aerial Bushin Senpukyaku",
+      "category": "special",
+      "onBlock": -2,
+      "startup": "8",
+      "active": "2, 2, 2",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "j.214K"
+    },
+    {
+      "id": "kimberly_aerial_bushin_senpukyaku_overdrive",
+      "moveName": "Aerial Bushin Senpukyaku (Overdrive)",
+      "category": "special",
+      "onBlock": 0,
+      "startup": "8",
+      "active": "2, 3, 2, 3, 2",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "j.214K"
+    },
+    {
+      "id": "kimberly_sprint",
+      "moveName": "Sprint",
+      "category": "special",
+      "onBlock": 0,
+      "startup": "6...",
+      "active": null,
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "236K"
+    },
+    {
+      "id": "kimberly_arc_step",
+      "moveName": "Arc Step",
+      "category": "special",
+      "onBlock": -6,
+      "startup": "(6...)+15",
+      "active": "2, 2",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "236K (close)"
+    },
+    {
+      "id": "kimberly_arc_step_overdrive",
+      "moveName": "Arc Step (Overdrive)",
+      "category": "special",
+      "onBlock": -6,
+      "startup": "(6...)+13",
+      "active": "2, 2",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "236K (close)"
+    },
+    {
+      "id": "kimberly_bushin_izuna_otoshi",
+      "moveName": "Bushin Izuna Otoshi",
+      "category": "special",
+      "onBlock": 0,
+      "startup": "((8...)+15)+13",
+      "active": "5",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "236K (close)~P"
     },
     {
       "id": "bushin_hojin_kick",
@@ -44,177 +374,206 @@
       "punishWindow": "6f",
       "bestPunish": "cr.MP xx Jackknife HK",
       "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/8/81/SF6_Kimberly_236k_prox_k.png"
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "startup": "((8...)+15)+13",
+      "active": "6",
+      "recovery": null,
+      "command": "236K (close)~K"
     },
     {
-      "id": "water_slicer_slide",
-      "moveName": "Water Slicer Slide",
-      "category": "sprintFollowup",
+      "id": "kimberly_emergeny_stop",
+      "moveName": "Emergeny Stop",
+      "category": "special",
+      "onBlock": 0,
+      "startup": "(8...)+14",
+      "active": null,
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif"
+    },
+    {
+      "id": "kimberly_torso_cleaver",
+      "moveName": "Torso Cleaver",
+      "category": "special",
+      "onBlock": 1,
+      "startup": "(8...)+21 ((8...)+17)",
+      "active": "7",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "236K~LK"
+    },
+    {
+      "id": "kimberly_shadow_slide",
+      "moveName": "Shadow Slide",
+      "category": "special",
+      "onBlock": -12,
+      "startup": "(8...)+10 ((8...)+8)",
+      "active": "12 (12**)",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "236K~MK"
+    },
+    {
+      "id": "kimberly_neck_hunter",
+      "moveName": "Neck Hunter",
+      "category": "special",
+      "onBlock": -3,
+      "startup": "(8...)+19 ((8...)+15)",
+      "active": "5 (5)",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "236K~HK"
+    },
+    {
+      "id": "kimberly_vagabond_edge_light_punch",
+      "moveName": "Vagabond Edge (Light Punch)",
+      "category": "special",
       "onBlock": -5,
-      "punishWindow": "4f",
-      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
-      "notes": "Timing dependent — can be 0 at best spacing. Only punishable at worst frames.",
-      "imageURL": "https://wiki.supercombo.gg/images/a/a5/SF6_Kimberly_3mk.png"
-    },
-    {
-      "id": "arc_step_empty",
-      "moveName": "Arc Step (Empty)",
-      "category": "sprintFollowup",
-      "onBlock": -6,
-      "punishWindow": "6f",
-      "bestPunish": "cr.MP xx Jackknife HK",
+      "startup": "10",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
       "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/5/58/SF6_Kimberly_236k_prox.png"
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "236P"
     },
     {
-      "id": "hisen_kick_step_up",
-      "moveName": "Hisen Kick Step Up",
-      "category": "sprintFollowup",
-      "onBlock": -15,
-      "punishWindow": "6f",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
-      "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/a/a6/SF6_Kimberly_6hk_8.png"
-    },
-    {
-      "id": "vagabond_edge_l",
-      "moveName": "Vagabond Edge (L)",
-      "category": "special",
-      "onBlock": -5,
-      "punishWindow": "4f",
-      "bestPunish": "5LP > 5LK > cr.MK xx Jackknife HK",
-      "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/3/34/SF6_Kimberly_236lp.png"
-    },
-    {
-      "id": "vagabond_edge_m",
-      "moveName": "Vagabond Edge (M)",
+      "id": "kimberly_vagabond_edge_medium_punch",
+      "moveName": "Vagabond Edge (Medium Punch)",
       "category": "special",
       "onBlock": -12,
-      "punishWindow": "6f",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "startup": "17",
+      "active": "2",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
       "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/1/11/SF6_Kimberly_236mp.png"
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "236P"
     },
     {
-      "id": "vagabond_edge_h",
-      "moveName": "Vagabond Edge (H)",
+      "id": "kimberly_vagabond_edge_heavy_punch",
+      "moveName": "Vagabond Edge (Heavy Punch)",
       "category": "special",
       "onBlock": -12,
-      "punishWindow": "6f",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "startup": "24",
+      "active": "2",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
       "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/3/30/SF6_Kimberly_236hp.png"
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "236P"
     },
     {
-      "id": "vagabond_edge_od",
-      "moveName": "Vagabond Edge (OD)",
+      "id": "kimberly_vagabond_edge_overdrive",
+      "moveName": "Vagabond Edge (Overdrive)",
       "category": "special",
       "onBlock": -12,
-      "punishWindow": "6f",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "startup": "17",
+      "active": "2",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
       "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/d/d0/SF6_Kimberly_236pp.png"
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "236P"
     },
     {
-      "id": "shadow_slide",
-      "moveName": "Shadow Slide (Close)",
+      "id": "kimberly_hidden_variable",
+      "moveName": "Hidden Variable",
       "category": "special",
-      "onBlock": -12,
-      "punishWindow": "6f",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
-      "notes": "Spacing dependent — only punishable at close range.",
-      "imageURL": "https://wiki.supercombo.gg/images/6/64/SF6_Kimberly_236k_mk.png"
-    },
-    {
-      "id": "bushin_prism_strikes",
-      "moveName": "Bushin Prism Strikes (Full)",
-      "category": "special",
-      "onBlock": -12,
-      "punishWindow": "6f",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "onBlock": 0,
+      "startup": "19",
+      "active": null,
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
       "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/b/b6/SF6_Kimberly_5lp_mp_hp_hk.png"
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "214P"
     },
     {
-      "id": "bushin_hellchain",
-      "moveName": "Bushin Hellchain (Full)",
+      "id": "kimberly_shuriken_bomb_genius_at_play",
+      "moveName": "Shuriken Bomb / Genius at Play",
       "category": "special",
-      "onBlock": -12,
-      "punishWindow": "6f",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
+      "onBlock": 0,
+      "startup": "18",
+      "active": "10",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
       "notes": null,
-      "imageURL": "https://wiki.supercombo.gg/images/6/6c/SF6_Kimberly_5lp_mp_2hp_2hk.png"
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "22P"
     },
     {
-      "id": "bushin_senpukyaku_l",
-      "moveName": "Bushin Senpukyaku (L)",
+      "id": "kimberly_nue_twister",
+      "moveName": "Nue Twister",
       "category": "special",
-      "onBlock": -30,
-      "punishWindow": "massive",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
-      "notes": "Extend with OD/super if available.",
-      "imageURL": "https://wiki.supercombo.gg/images/c/c3/SF6_Kimberly_214lk.png"
+      "onBlock": 0,
+      "startup": "5",
+      "active": "3",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberly-cowardcrouch.gif",
+      "command": "j.236P"
     },
     {
-      "id": "bushin_senpukyaku_m",
-      "moveName": "Bushin Senpukyaku (M)",
-      "category": "special",
-      "onBlock": -32,
-      "punishWindow": "massive",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
-      "notes": "Extend with OD/super if available.",
-      "imageURL": "https://wiki.supercombo.gg/images/c/c3/SF6_Kimberly_214lk.png"
-    },
-    {
-      "id": "bushin_senpukyaku_h",
-      "moveName": "Bushin Senpukyaku (H)",
-      "category": "special",
-      "onBlock": -35,
-      "punishWindow": "massive",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
-      "notes": "Extend with OD/super if available.",
-      "imageURL": "https://wiki.supercombo.gg/images/c/c3/SF6_Kimberly_214lk.png"
-    },
-    {
-      "id": "bushin_senpukyaku_od",
-      "moveName": "Bushin Senpukyaku (OD)",
-      "category": "special",
-      "onBlock": -35,
-      "punishWindow": "massive",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
-      "notes": "Extend with OD/super if available.",
-      "imageURL": "https://wiki.supercombo.gg/images/7/7c/SF6_Kimberly_214kk.png"
-    },
-    {
-      "id": "bushin_beats_sa1",
-      "moveName": "Bushin Beats (SA1)",
+      "id": "kimberly_bushin_beats_level_1",
+      "moveName": "Bushin Beats (Level 1)",
       "category": "super",
       "onBlock": -25,
-      "punishWindow": "massive",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
-      "notes": "Extend with OD/super if available.",
-      "imageURL": "https://wiki.supercombo.gg/images/d/d3/SF6_Kimberly_236236k.png"
+      "startup": "10",
+      "active": "15",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberlyJab1.gif",
+      "command": "236236K (HOLD OK)"
     },
     {
-      "id": "bushin_scramble_sa2",
-      "moveName": "Bushin Scramble (SA2)",
+      "id": "kimberly_bushin_scramble_level_2",
+      "moveName": "Bushin Scramble (Level 2)",
       "category": "super",
       "onBlock": -25,
-      "punishWindow": "massive",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
-      "notes": "Extend with OD/super if available.",
-      "imageURL": "https://wiki.supercombo.gg/images/e/e7/SF6_Kimberly_214214p.png"
+      "startup": "13",
+      "active": "8",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberlyJab1.gif",
+      "command": "214214P (AIR OK)"
     },
     {
-      "id": "bushin_ninjastar_cypher_sa3",
-      "moveName": "Bushin Ninjastar Cypher (SA3)",
+      "id": "kimberly_bushin_ninjastar_cypher_level_3",
+      "moveName": "Bushin Ninjastar Cypher (Level 3)",
       "category": "super",
       "onBlock": -35,
-      "punishWindow": "massive",
-      "bestPunish": "cr.MP > DR cr.MP xx Jackknife HK",
-      "notes": "Extend with OD/super if available.",
-      "imageURL": "https://wiki.supercombo.gg/images/4/48/SF6_Kimberly_236236p.png"
+      "startup": "8",
+      "active": "6",
+      "recovery": null,
+      "punishWindow": null,
+      "bestPunish": null,
+      "notes": null,
+      "imageURL": "https://ultimateframedata.com/sf6/hitboxes/kimberly/kimberlyJab1.gif",
+      "command": "236236P"
     }
   ],
   "meatySetups": [
@@ -222,8 +581,13 @@
       "id": "jackknife_hk_safe_jump",
       "afterMove": "Jackknife Maximum (HK)",
       "kdAdvantage": 42,
-      "setup": "Neutral Jump \u2192 j.X (Safe Jump)",
-      "beats": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher", "OD reversal", "wake throw"],
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA1 Bushin Beats",
+        "SA3 Ninjastar Cypher",
+        "OD reversal",
+        "wake throw"
+      ],
       "loses": [],
       "trades": [],
       "notes": "KD +42 gives exactly the right window. If she reversal supers, you land in time to block and punish."
@@ -232,9 +596,16 @@
       "id": "jackknife_hk_meaty_mk",
       "afterMove": "Jackknife Maximum (HK)",
       "kdAdvantage": 42,
-      "setup": "Walk forward \u2192 meaty cr.MK",
-      "beats": ["wake jab", "wake throw", "back rise attempt"],
-      "loses": ["SA1 Bushin Beats (strike invincible)", "SA3 Ninjastar Cypher (fully invincible)"],
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw",
+        "back rise attempt"
+      ],
+      "loses": [
+        "SA1 Bushin Beats (strike invincible)",
+        "SA3 Ninjastar Cypher (fully invincible)"
+      ],
       "trades": [],
       "notes": "Higher reward if she doesn't reversal. Risky vs. super-happy players."
     },
@@ -242,19 +613,29 @@
       "id": "jackknife_grounded_safe_jump",
       "afterMove": "MK / HK Jackknife (Grounded)",
       "kdAdvantage": 37,
-      "setup": "Neutral Jump \u2192 j.2LK (Dive Kick, Safe Jump)",
-      "beats": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher", "wake throw"],
+      "setup": "Neutral Jump → j.2LK (Dive Kick, Safe Jump)",
+      "beats": [
+        "SA1 Bushin Beats",
+        "SA3 Ninjastar Cypher",
+        "wake throw"
+      ],
       "loses": [],
       "trades": [],
-      "notes": "+36\u201337 is the safe jump window for j.2LK specifically."
+      "notes": "+36–37 is the safe jump window for j.2LK specifically."
     },
     {
       "id": "jackknife_grounded_meaty_mk",
       "afterMove": "MK / HK Jackknife (Grounded)",
       "kdAdvantage": 37,
-      "setup": "Walk forward \u2192 meaty cr.MK",
-      "beats": ["wake jab", "wake throw"],
-      "loses": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher"],
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw"
+      ],
+      "loses": [
+        "SA1 Bushin Beats",
+        "SA3 Ninjastar Cypher"
+      ],
       "trades": [],
       "notes": "Same risk profile as after Jackknife Maximum HK."
     },
@@ -262,19 +643,31 @@
       "id": "forward_throw_loop",
       "afterMove": "MK Rolling Sobat / Forward Throw",
       "kdAdvantage": 34,
-      "setup": "Forward Dash \u2192 Whiff 5LP \u2192 Throw Loop",
-      "beats": ["wake throw (throw tech loop)", "shimmy threat"],
-      "loses": ["SA1 Bushin Beats (also throw invincible!)", "SA3 Ninjastar Cypher"],
+      "setup": "Forward Dash → Whiff 5LP → Throw Loop",
+      "beats": [
+        "wake throw (throw tech loop)",
+        "shimmy threat"
+      ],
+      "loses": [
+        "SA1 Bushin Beats (also throw invincible!)",
+        "SA3 Ninjastar Cypher"
+      ],
       "trades": [],
-      "notes": "Classic throw loop. Note SA1 has THROW invincibility \u2014 this setup does NOT work against reversal SA1."
+      "notes": "Classic throw loop. Note SA1 has THROW invincibility — this setup does NOT work against reversal SA1."
     },
     {
       "id": "forward_throw_meaty_mp",
       "afterMove": "MK Rolling Sobat / Forward Throw",
       "kdAdvantage": 34,
-      "setup": "Forward Dash \u2192 meaty cr.MP",
-      "beats": ["wake jab", "wake throw"],
-      "loses": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher"],
+      "setup": "Forward Dash → meaty cr.MP",
+      "beats": [
+        "wake jab",
+        "wake throw"
+      ],
+      "loses": [
+        "SA1 Bushin Beats",
+        "SA3 Ninjastar Cypher"
+      ],
       "trades": [],
       "notes": "More combo reward on hit than throw loop. Same risk vs. supers."
     },
@@ -282,19 +675,30 @@
       "id": "sweep_late_safe_jump",
       "afterMove": "cr.HK Sweep (Late Hit, +42)",
       "kdAdvantage": 42,
-      "setup": "Neutral Jump \u2192 j.X (Safe Jump)",
-      "beats": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher", "OD reversal", "wake throw"],
+      "setup": "Neutral Jump → j.X (Safe Jump)",
+      "beats": [
+        "SA1 Bushin Beats",
+        "SA3 Ninjastar Cypher",
+        "OD reversal",
+        "wake throw"
+      ],
       "loses": [],
       "trades": [],
-      "notes": "Late active frame hit gives +42 \u2014 same advantage as Jackknife Maximum HK. Same safe jump applies."
+      "notes": "Late active frame hit gives +42 — same advantage as Jackknife Maximum HK. Same safe jump applies."
     },
     {
       "id": "sweep_early_meaty_mk",
       "afterMove": "cr.HK Sweep (Early Hit, +33)",
       "kdAdvantage": 33,
-      "setup": "Walk forward \u2192 meaty cr.MK",
-      "beats": ["wake jab", "wake throw"],
-      "loses": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher"],
+      "setup": "Walk forward → meaty cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw"
+      ],
+      "loses": [
+        "SA1 Bushin Beats",
+        "SA3 Ninjastar Cypher"
+      ],
       "trades": [],
       "notes": "Not enough advantage for safe jump at +33. Meaty cr.MK is the best option here."
     },
@@ -303,18 +707,29 @@
       "afterMove": "Back Throw",
       "kdAdvantage": 22,
       "setup": "Walk-in meaty 5LP (tight timing)",
-      "beats": ["wake throw"],
-      "loses": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher"],
+      "beats": [
+        "wake throw"
+      ],
+      "loses": [
+        "SA1 Bushin Beats",
+        "SA3 Ninjastar Cypher"
+      ],
       "trades": [],
-      "notes": "Minimal oki \u2014 forward dash only leaves +3 after side switch. Prioritize defensive positioning."
+      "notes": "Minimal oki — forward dash only leaves +3 after side switch. Prioritize defensive positioning."
     },
     {
       "id": "crmk_meaty",
       "afterMove": "cr.MK",
       "kdAdvantage": 29,
-      "setup": "Walk forward \u2192 meaty cr.LK or cr.MK",
-      "beats": ["wake jab", "wake throw"],
-      "loses": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher"],
+      "setup": "Walk forward → meaty cr.LK or cr.MK",
+      "beats": [
+        "wake jab",
+        "wake throw"
+      ],
+      "loses": [
+        "SA1 Bushin Beats",
+        "SA3 Ninjastar Cypher"
+      ],
       "trades": [],
       "notes": "Solid oki. Not enough advantage for safe jump without meter."
     }
@@ -325,8 +740,13 @@
       "title": "Safe Jump (Universal Reversal Killer)",
       "afterMove": "Jackknife Maximum (HK) or cr.HK late hit (+42)",
       "kdAdvantage": 42,
-      "setup": "Neutral Jump \u2192 j.X",
-      "beats": ["SA1 Bushin Beats", "SA3 Ninjastar Cypher", "OD Reversal / Hidden Variable", "wake throw"],
+      "setup": "Neutral Jump → j.X",
+      "beats": [
+        "SA1 Bushin Beats",
+        "SA3 Ninjastar Cypher",
+        "OD Reversal / Hidden Variable",
+        "wake throw"
+      ],
       "loses": [],
       "trades": [],
       "punishAfterBlockedSA1": "cr.MP > DR cr.MP xx Jackknife HK",
@@ -338,9 +758,14 @@
       "title": "Deliberate Bait (Jump Back + Block)",
       "afterMove": "Any knockdown (reversal read)",
       "kdAdvantage": null,
-      "setup": "Jump back / neutral jump \u2192 land \u2192 block",
-      "beats": ["SA1 Bushin Beats (block and punish \u221225)", "SA3 Ninjastar Cypher (block and punish \u221235)"],
-      "loses": ["Kimberly does nothing (you waste your turn)"],
+      "setup": "Jump back / neutral jump → land → block",
+      "beats": [
+        "SA1 Bushin Beats (block and punish −25)",
+        "SA3 Ninjastar Cypher (block and punish −35)"
+      ],
+      "loses": [
+        "Kimberly does nothing (you waste your turn)"
+      ],
       "trades": [],
       "punishAfterBlockedSA1": "cr.MP > DR cr.MP xx Jackknife HK",
       "punishAfterBlockedSA3": "cr.MP > DR cr.MP xx Jackknife HK (extend with OD/super)",
@@ -352,8 +777,15 @@
       "afterMove": "Any knockdown with meaty opportunity",
       "kdAdvantage": null,
       "setup": "Well-timed meaty 5LP or cr.LP",
-      "beats": ["SA2 Bushin Scramble (no true invincibility)", "wake throw", "wake jab"],
-      "loses": ["SA1 Bushin Beats (strike invincible f1\u201310)", "SA3 Ninjastar Cypher (fully invincible f1\u201311)"],
+      "beats": [
+        "SA2 Bushin Scramble (no true invincibility)",
+        "wake throw",
+        "wake jab"
+      ],
+      "loses": [
+        "SA1 Bushin Beats (strike invincible f1–10)",
+        "SA3 Ninjastar Cypher (fully invincible f1–11)"
+      ],
       "trades": [],
       "punishAfterBlockedSA1": null,
       "punishAfterBlockedSA3": null,
@@ -362,28 +794,28 @@
   ],
   "opponentReversals": [
     {
-      "name": "SA1 \u2014 Bushin Beats",
-      "invincibility": "Strike + Throw invincible f1\u201310",
+      "name": "SA1 — Bushin Beats",
+      "invincibility": "Strike + Throw invincible f1–10",
       "onBlock": -25,
-      "warning": "Throw invincible too \u2014 delayed throw does NOT beat this"
+      "warning": "Throw invincible too — delayed throw does NOT beat this"
     },
     {
-      "name": "SA3 \u2014 Bushin Ninjastar Cypher",
-      "invincibility": "Fully invincible f1\u201311",
+      "name": "SA3 — Bushin Ninjastar Cypher",
+      "invincibility": "Fully invincible f1–11",
       "onBlock": -35,
       "warning": "Expensive but extremely rewarding on hit"
     },
     {
-      "name": "SA2 \u2014 Bushin Scramble",
+      "name": "SA2 — Bushin Scramble",
       "invincibility": "No true invincibility",
       "onBlock": -25,
-      "warning": "Teleports upward \u2014 loses to meaty normals"
+      "warning": "Teleports upward — loses to meaty normals"
     },
     {
       "name": "Hidden Variable (OD)",
-      "invincibility": "Full invincibility f19\u201326",
+      "invincibility": "Full invincibility f19–26",
       "onBlock": null,
-      "warning": "Very slow startup \u2014 any early meaty beats it easily"
+      "warning": "Very slow startup — any early meaty beats it easily"
     }
   ]
 }

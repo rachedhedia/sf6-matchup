@@ -96,9 +96,9 @@ struct ReversalRow: View {
         .padding(10)
         .background(Color.cardBackground)
         .overlay(
-            RoundedRectangle(cornerRadius: 6)
-                .stroke(Color.cardBorder, lineWidth: 1)
+            RoundedRectangle(cornerRadius: 10)
+                .stroke(Color.sectionAccent.opacity(0.25), lineWidth: 1)
         )
-        .cornerRadius(6)
+        .cornerRadius(10)
     }
 }

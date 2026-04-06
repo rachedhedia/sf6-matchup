@@ -7,6 +7,13 @@ struct RosterCharacter: Codable, Identifiable {
     let hasData: Bool
 }
 
+struct CharacterInfo: Codable {
+    let health: Int
+    let archetype: String
+    let strengths: [String]
+    let weaknesses: [String]
+}
+
 struct Roster: Codable {
     let characters: [RosterCharacter]
 }
@@ -23,10 +30,16 @@ struct PunishEntry: Codable, Identifiable {
     let moveName: String
     let category: String
     let onBlock: Int
-    let punishWindow: String
-    let bestPunish: String
+    let startup: String?
+    let active: String?
+    let recovery: String?
+    let command: String?           // e.g. "214K", "236P", "5LP"
+    let punishWindow: String?      // nil = not punishable
+    let bestPunish: String?        // nil = not punishable
     let notes: String?
     let imageURL: String?
+
+    var isPunishable: Bool { punishWindow != nil }
 }
 
 struct MeatySetup: Codable, Identifiable {

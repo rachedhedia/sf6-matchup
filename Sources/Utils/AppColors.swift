@@ -2,28 +2,29 @@ import SwiftUI
 
 extension Color {
     // Backgrounds
-    static let appBackground   = Color(hex: "0D0D0D")
-    static let cardBackground  = Color(hex: "1C1C1E")
-    static let sectionHeader   = Color(hex: "141414")
-    static let cardBorder      = Color(hex: "2C2C2E")
+    static let appBackground   = Color(hex: "0A0C18")   // deep blue-black
+    static let cardBackground  = Color(hex: "12152A")   // dark navy
+    static let sectionHeader   = Color(hex: "0D1020")   // slightly darker navy
+    static let cardBorder      = Color(hex: "2A2D4A")   // purple-tinted border
 
     // Brand
-    static let accent          = Color(hex: "F5A623")
+    static let sectionAccent   = Color(hex: "8B6CF7")   // violet — section headers & dividers
+    static let accent          = Color(hex: "F5A623")   // orange — key values, combos
 
     // Text
     static let primaryText     = Color.white
-    static let secondaryText   = Color(hex: "8E8E93")
+    static let secondaryText   = Color(hex: "8A8FA8")   // blue-grey
 
     // Outcome
-    static let beatsColor      = Color(hex: "30D158")
-    static let losesColor      = Color(hex: "FF453A")
+    static let beatsColor      = Color(hex: "36D97B")
+    static let losesColor      = Color(hex: "FF4C4C")
     static let tradesColor     = Color(hex: "FFD60A")
 
     // Punish window tags
-    static let tag4f           = Color(hex: "FFD60A")   // yellow
-    static let tag6f           = Color(hex: "FF9500")   // orange
-    static let tag8fPlus       = Color(hex: "FF3B30")   // red
-    static let tagMassive      = Color(hex: "0A84FF")   // blue
+    static let tag4f           = Color(hex: "F5C542")   // yellow
+    static let tag6f           = Color(hex: "F5A623")   // orange
+    static let tag8fPlus       = Color(hex: "FF6B35")   // red-orange
+    static let tagMassive      = Color(hex: "8B6CF7")   // violet
 
     init(hex: String) {
         let s = Scanner(string: hex.trimmingCharacters(in: CharacterSet(charactersIn: "#")))

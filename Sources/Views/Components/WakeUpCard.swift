@@ -73,10 +73,10 @@ struct WakeUpCard: View {
         .padding(12)
         .background(Color.cardBackground)
         .overlay(
-            RoundedRectangle(cornerRadius: 8)
-                .stroke(Color.cardBorder, lineWidth: 1)
+            RoundedRectangle(cornerRadius: 12)
+                .stroke(Color.sectionAccent.opacity(0.25), lineWidth: 1)
         )
-        .cornerRadius(8)
+        .cornerRadius(12)
     }
 }
 
